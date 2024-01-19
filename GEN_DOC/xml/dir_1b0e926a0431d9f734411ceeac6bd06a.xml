@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_1b0e926a0431d9f734411ceeac6bd06a" kind="dir">
+    <compoundname>Rendering</compoundname>
+    <innerdir refid="dir_c79fccba8a76b4ddfc26d3d7c06c6156">Rendering/Sprites</innerdir>
+    <innerdir refid="dir_3161fb1d2e9efe1d5bc83f1631a9baa7">Rendering/Text</innerdir>
+    <innerfile refid="_camera_8cs">Camera.cs</innerfile>
+    <innerfile refid="_renderer_8cs">Renderer.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Rendering/"/>
+  </compounddef>
+</doxygen>

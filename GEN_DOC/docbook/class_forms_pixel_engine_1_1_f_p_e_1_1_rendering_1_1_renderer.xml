@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer" xml:lang="en-US">
+<title>FormsPixelEngine.FPE.Rendering.Renderer Class Reference</title>
+<indexterm><primary>FormsPixelEngine.FPE.Rendering.Renderer</primary></indexterm>
+<para>
+
+<para>Renders to the Window. </para>
+ 
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1ac1940c619d440b7a08df9a6ea6c8df70"/><emphasis role="strong">Renderer</emphasis> (uint _pixelWidth, uint _pixelHeight)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1adcc43286ac7ffdf073e22a129b4daeba">DrawSprite</link> (int _x, int _y, <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_sprite">Sprite</link> _sprite)</para>
+
+<para>Draws a sprite onto the screen. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1abb1832bbd0ca725e897ae9159441b94a">DrawRect</link> (int _x, int _y, int _w, int _h)</para>
+
+<para>Draws a rectangle onto the screen using the current draw color. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1a59581adf615a963f7b54909bc019ee9e">DrawText</link> (int _x, int _y, string _text, <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_text_1_1_f_p_e_font">FPEFont</link> _font)</para>
+
+<para>Draws a text onto the screen. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1aac5a7c7089fbce398b462fe3db02d4bb">SetDrawColor</link> (Vector3 _drawColor)</para>
+
+<para>Sets the draw color. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1ae6958022fc2aa2d1953e674d4d9b360d">PushCamera</link> (<link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_camera">Camera</link> _camera)</para>
+
+<para>Sets the camera to be used for rendering. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1a04092ddbd9c2e19a6512b62b586fe7ad">PopCamera</link> ()</para>
+
+<para>Removes camera and makes future draw call relative to the screen. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1ab2db670e2f3e112563d908a11ef22226">ClearScreen</link> (Vector3 _clearColor)</para>
+
+<para>Clears the screen with a set color. </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1a7e38b6fa7acf8191fd8c60aa4f0dd6b8"/>uint?[] <emphasis role="strong">GetPixelBuffer</emphasis> ()</para>
+
+<para>Gets the buffer of pixels. </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1a40f8631dd59ee9483d7e3f495913c689"/>IntPtr <emphasis role="strong">GetPixelBufferPtr</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1a6c316ff51ebd86d0b4d3b41c9f6a2674"/>void <emphasis role="strong">Destroy</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1aaa9e7df63960d146d7ce3686accdaa0a"/>uint <emphasis role="strong">pixelWidth</emphasis><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Width of the screen in pixels. </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1a7ccca8ddffb986612fe919cb0a0bd56d"/>uint <emphasis role="strong">pixelHeight</emphasis><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Height of the screen in pixels. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Renders to the Window. </para>
+
+
+
+<para>This class allows rendering to the window. It provides several Methods for Drawing Images, Shapes and Text. <?linebreak?> </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1ab2db670e2f3e112563d908a11ef22226"/><section>
+    <title>ClearScreen()</title>
+<indexterm><primary>ClearScreen</primary><secondary>FormsPixelEngine.FPE.Rendering.Renderer</secondary></indexterm>
+<indexterm><primary>FormsPixelEngine.FPE.Rendering.Renderer</primary><secondary>ClearScreen</secondary></indexterm>
+<para><computeroutput>void FormsPixelEngine.FPE.Rendering.Renderer.ClearScreen (Vector3 _clearColor)</computeroutput></para><para>
+
+<para>Clears the screen with a set color. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>_clearColor</entry><entry>
+<para>The color (a vector 3 where (x,y,z) represents (r,g,b) in the color range of 0 - 255) </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1abb1832bbd0ca725e897ae9159441b94a"/><section>
+    <title>DrawRect()</title>
+<indexterm><primary>DrawRect</primary><secondary>FormsPixelEngine.FPE.Rendering.Renderer</secondary></indexterm>
+<indexterm><primary>FormsPixelEngine.FPE.Rendering.Renderer</primary><secondary>DrawRect</secondary></indexterm>
+<para><computeroutput>void FormsPixelEngine.FPE.Rendering.Renderer.DrawRect (int _x, int _y, int _w, int _h)</computeroutput></para><para>
+
+<para>Draws a rectangle onto the screen using the current draw color. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>_x</entry><entry>
+<para>X position of the rectangle </para>
+</entry>
+                            </row>
+                            <row>
+<entry>_y</entry><entry>
+<para>Y position of the rectangle </para>
+</entry>
+                            </row>
+                            <row>
+<entry>_w</entry><entry>
+<para>Width of the rectangle </para>
+</entry>
+                            </row>
+                            <row>
+<entry>_h</entry><entry>
+<para>Height of the rectangle </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>See also</title>
+
+<para>SetDrawColor </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1adcc43286ac7ffdf073e22a129b4daeba"/><section>
+    <title>DrawSprite()</title>
+<indexterm><primary>DrawSprite</primary><secondary>FormsPixelEngine.FPE.Rendering.Renderer</secondary></indexterm>
+<indexterm><primary>FormsPixelEngine.FPE.Rendering.Renderer</primary><secondary>DrawSprite</secondary></indexterm>
+<para><computeroutput>void FormsPixelEngine.FPE.Rendering.Renderer.DrawSprite (int _x, int _y, <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_sprite">Sprite</link> _sprite)</computeroutput></para><para>
+
+<para>Draws a sprite onto the screen. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>_x</entry><entry>
+<para>X position of sprite </para>
+</entry>
+                            </row>
+                            <row>
+<entry>_y</entry><entry>
+<para>Y position of sprite </para>
+</entry>
+                            </row>
+                            <row>
+<entry>_sprite</entry><entry>
+<para>sprite to be rendered </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>See also</title>
+
+<para>Sprite, TextureSprite </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1a59581adf615a963f7b54909bc019ee9e"/><section>
+    <title>DrawText()</title>
+<indexterm><primary>DrawText</primary><secondary>FormsPixelEngine.FPE.Rendering.Renderer</secondary></indexterm>
+<indexterm><primary>FormsPixelEngine.FPE.Rendering.Renderer</primary><secondary>DrawText</secondary></indexterm>
+<para><computeroutput>void FormsPixelEngine.FPE.Rendering.Renderer.DrawText (int _x, int _y, string _text, <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_text_1_1_f_p_e_font">FPEFont</link> _font)</computeroutput></para><para>
+
+<para>Draws a text onto the screen. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>_x</entry><entry>
+<para>X position of the text </para>
+</entry>
+                            </row>
+                            <row>
+<entry>_y</entry><entry>
+<para>Y position of the text </para>
+</entry>
+                            </row>
+                            <row>
+<entry>_text</entry><entry>
+<para>the actual text to be rendered. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>_font</entry><entry>
+<para>the font to be used for rendering. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>See also</title>
+
+<para>FPEFont </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1a04092ddbd9c2e19a6512b62b586fe7ad"/><section>
+    <title>PopCamera()</title>
+<indexterm><primary>PopCamera</primary><secondary>FormsPixelEngine.FPE.Rendering.Renderer</secondary></indexterm>
+<indexterm><primary>FormsPixelEngine.FPE.Rendering.Renderer</primary><secondary>PopCamera</secondary></indexterm>
+<para><computeroutput>void FormsPixelEngine.FPE.Rendering.Renderer.PopCamera ( )</computeroutput></para><para>
+
+<para>Removes camera and makes future draw call relative to the screen. </para>
+</para>
+
+<para><formalpara><title>See also</title>
+
+<para>Camera, PushCamera </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1ae6958022fc2aa2d1953e674d4d9b360d"/><section>
+    <title>PushCamera()</title>
+<indexterm><primary>PushCamera</primary><secondary>FormsPixelEngine.FPE.Rendering.Renderer</secondary></indexterm>
+<indexterm><primary>FormsPixelEngine.FPE.Rendering.Renderer</primary><secondary>PushCamera</secondary></indexterm>
+<para><computeroutput>void FormsPixelEngine.FPE.Rendering.Renderer.PushCamera (<link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_camera">Camera</link> _camera)</computeroutput></para><para>
+
+<para>Sets the camera to be used for rendering. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>_camera</entry><entry>
+<para>the camera </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>See also</title>
+
+<para>Camera, PopCamera </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1aac5a7c7089fbce398b462fe3db02d4bb"/><section>
+    <title>SetDrawColor()</title>
+<indexterm><primary>SetDrawColor</primary><secondary>FormsPixelEngine.FPE.Rendering.Renderer</secondary></indexterm>
+<indexterm><primary>FormsPixelEngine.FPE.Rendering.Renderer</primary><secondary>SetDrawColor</secondary></indexterm>
+<para><computeroutput>void FormsPixelEngine.FPE.Rendering.Renderer.SetDrawColor (Vector3 _drawColor)</computeroutput></para><para>
+
+<para>Sets the draw color. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>_drawColor</entry><entry>
+<para>The color (a vector 3 where (x,y,z) represents (r,g,b) in the color range of 0 - 255) </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>See also</title>
+
+<para>DrawRect </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Rendering/Renderer.cs</section>
+</section>

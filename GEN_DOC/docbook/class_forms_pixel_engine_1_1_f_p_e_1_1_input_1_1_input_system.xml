@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_input_1_1_input_system" xml:lang="en-US">
+<title>FormsPixelEngine.FPE.Input.InputSystem Class Reference</title>
+<indexterm><primary>FormsPixelEngine.FPE.Input.InputSystem</primary></indexterm>
+<para>
+
+<para>Class for handling user Input. </para>
+ 
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_input_1_1_input_system_1a9d9f5bfe3d4dc10445d799050f282aaf"/>void <emphasis role="strong">Update</emphasis> (uint keyValue, bool _state)</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_input_1_1_input_system_1a97b1972bd8e2b0a78f9036061d4eccfe">KeyPressed</link> (<link linkend="_namespace_forms_pixel_engine_1_1_f_p_e_1_1_input_1a46987678695562d79b848f250940a0e5">KeyCode</link> key)</para>
+
+<para>Returns true if the given key was pressed. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_input_1_1_input_system_1a5dea25c586200c982506634004d213c9">SubscribeKey</link> (<link linkend="_namespace_forms_pixel_engine_1_1_f_p_e_1_1_input_1a46987678695562d79b848f250940a0e5">KeyCode</link> _key)</para>
+
+<para>Adds the key to the Subscriptions and checks its state every Frame. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_input_1_1_input_system_1a162f4e4c9d02983eb29c6f24898b8616">UnsubscribeKey</link> (<link linkend="_namespace_forms_pixel_engine_1_1_f_p_e_1_1_input_1a46987678695562d79b848f250940a0e5">KeyCode</link> _key)</para>
+
+<para>Removes the key to the Subscriptions and stops checking its state every Frame. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Class for handling user Input. </para>
+
+
+
+<para>This class allows the subscribing to keys. if a subscribed key is being pressed the KeyPressed method would return true. <?linebreak?> </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_input_1_1_input_system_1a97b1972bd8e2b0a78f9036061d4eccfe"/><section>
+    <title>KeyPressed()</title>
+<indexterm><primary>KeyPressed</primary><secondary>FormsPixelEngine.FPE.Input.InputSystem</secondary></indexterm>
+<indexterm><primary>FormsPixelEngine.FPE.Input.InputSystem</primary><secondary>KeyPressed</secondary></indexterm>
+<para><computeroutput>bool FormsPixelEngine.FPE.Input.InputSystem.KeyPressed (<link linkend="_namespace_forms_pixel_engine_1_1_f_p_e_1_1_input_1a46987678695562d79b848f250940a0e5">KeyCode</link> key)</computeroutput></para><para>
+
+<para>Returns true if the given key was pressed. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>Key</entry><entry>
+<para>The Key that will be checked </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>See also</title>
+
+<para>KeyCode.cs </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_input_1_1_input_system_1a5dea25c586200c982506634004d213c9"/><section>
+    <title>SubscribeKey()</title>
+<indexterm><primary>SubscribeKey</primary><secondary>FormsPixelEngine.FPE.Input.InputSystem</secondary></indexterm>
+<indexterm><primary>FormsPixelEngine.FPE.Input.InputSystem</primary><secondary>SubscribeKey</secondary></indexterm>
+<para><computeroutput>void FormsPixelEngine.FPE.Input.InputSystem.SubscribeKey (<link linkend="_namespace_forms_pixel_engine_1_1_f_p_e_1_1_input_1a46987678695562d79b848f250940a0e5">KeyCode</link> _key)</computeroutput></para><para>
+
+<para>Adds the key to the Subscriptions and checks its state every Frame. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>Key</entry><entry>
+<para>The Key that will be added </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>See also</title>
+
+<para>KeyCode.cs </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_input_1_1_input_system_1a162f4e4c9d02983eb29c6f24898b8616"/><section>
+    <title>UnsubscribeKey()</title>
+<indexterm><primary>UnsubscribeKey</primary><secondary>FormsPixelEngine.FPE.Input.InputSystem</secondary></indexterm>
+<indexterm><primary>FormsPixelEngine.FPE.Input.InputSystem</primary><secondary>UnsubscribeKey</secondary></indexterm>
+<para><computeroutput>void FormsPixelEngine.FPE.Input.InputSystem.UnsubscribeKey (<link linkend="_namespace_forms_pixel_engine_1_1_f_p_e_1_1_input_1a46987678695562d79b848f250940a0e5">KeyCode</link> _key)</computeroutput></para><para>
+
+<para>Removes the key to the Subscriptions and stops checking its state every Frame. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>Key</entry><entry>
+<para>The Key that will be removed </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>See also</title>
+
+<para>KeyCode.cs </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Input/InputSystem.cs</section>
+</section>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_c79fccba8a76b4ddfc26d3d7c06c6156" kind="dir">
+    <compoundname>Rendering/Sprites</compoundname>
+    <innerfile refid="_sprite_8cs">Sprite.cs</innerfile>
+    <innerfile refid="_texture_sprite_8cs">TextureSprite.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Rendering/Sprites/"/>
+  </compounddef>
+</doxygen>

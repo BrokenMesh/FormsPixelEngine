@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window" xml:lang="en-US">
+<title>FormsPixelEngine.FPE.From.GameWindow Class Reference</title>
+<indexterm><primary>FormsPixelEngine.FPE.From.GameWindow</primary></indexterm>
+<para>
+
+<para>abstract GameWindow class </para>
+ 
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1ae4313aac69c53e74a64eae43187988c3"/><emphasis role="strong">GameWindow</emphasis> (string _title, uint _windowWidth, uint _windowHeight, uint _pixelWidth, uint _pixelHeight)</para>
+</listitem>
+            <listitem><para>abstract void <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1af81cabdbe384ec396e7e4e7c03817fe2">OnInit</link> ()</para>
+
+<para>Abstract Method that is called on Window Initialization. </para>
+</listitem>
+            <listitem><para>abstract void <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1a36c278f3c2366219106684a3250ea0f3">OnUpdate</link> ()</para>
+
+<para>Abstract Method that is called when the Window is Updated. </para>
+</listitem>
+            <listitem><para>abstract void <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1ab85a69ec38b0ed8ae058faf2d80fe2f4">OnClose</link> ()</para>
+
+<para>Abstract Method that is called when the Window is Closed. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1ac60818141ecf33c48a91fa9c76013dc6"/>override void <emphasis role="strong">Dispose</emphasis> (bool disposing)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1a5f673b2cea664b26cfe50565e69cdb60"/>override void <emphasis role="strong">OnPaint</emphasis> (PaintEventArgs e)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1a3512cdf766bd547e1c0e1457365a45e8"/>override void <emphasis role="strong">OnClosing</emphasis> (CancelEventArgs e)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1ac9cd09c20be3dd72e47faef4a220304d"/>override void <emphasis role="strong">OnKeyDown</emphasis> (KeyEventArgs e)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1aa53786230e5b13ad1678a2a0e1fefb61"/>override void <emphasis role="strong">OnKeyUp</emphasis> (KeyEventArgs e)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer">Renderer</link> <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1a6b6c8f590d662cdb4e74b58ebba175b2">renderer</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_input_1_1_input_system">InputSystem</link> <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1afbce8b0abdd654dd326b5c8e3067bad1">input</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_manager">SceneManager</link> <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1a5b380cd1bd94ddb5fc2c587186168915">sceneManager</link></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1a0bf4095de202436302be5b94592e88d3"/>float <emphasis role="strong">deltaTime</emphasis></para>
+
+<para>Times used to process last Frame. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>abstract GameWindow class </para>
+
+
+
+<para>This class is the center of the FPE. When inherited it gives access to Rendering, Input, and other systems. The class that inherits GameWindow must also be a MS Form. </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1ab85a69ec38b0ed8ae058faf2d80fe2f4"/><section>
+    <title>OnClose()</title>
+<indexterm><primary>OnClose</primary><secondary>FormsPixelEngine.FPE.From.GameWindow</secondary></indexterm>
+<indexterm><primary>FormsPixelEngine.FPE.From.GameWindow</primary><secondary>OnClose</secondary></indexterm>
+<para><computeroutput>abstract void FormsPixelEngine.FPE.From.GameWindow.OnClose ( )<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
+
+<para>Abstract Method that is called when the Window is Closed. </para>
+</para>
+
+<para><formalpara><title>See also</title>
+
+<para>OnInit(), OnUpdate() </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1af81cabdbe384ec396e7e4e7c03817fe2"/><section>
+    <title>OnInit()</title>
+<indexterm><primary>OnInit</primary><secondary>FormsPixelEngine.FPE.From.GameWindow</secondary></indexterm>
+<indexterm><primary>FormsPixelEngine.FPE.From.GameWindow</primary><secondary>OnInit</secondary></indexterm>
+<para><computeroutput>abstract void FormsPixelEngine.FPE.From.GameWindow.OnInit ( )<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
+
+<para>Abstract Method that is called on Window Initialization. </para>
+</para>
+
+<para><formalpara><title>See also</title>
+
+<para>OnUpdate(), OnClose() </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1a36c278f3c2366219106684a3250ea0f3"/><section>
+    <title>OnUpdate()</title>
+<indexterm><primary>OnUpdate</primary><secondary>FormsPixelEngine.FPE.From.GameWindow</secondary></indexterm>
+<indexterm><primary>FormsPixelEngine.FPE.From.GameWindow</primary><secondary>OnUpdate</secondary></indexterm>
+<para><computeroutput>abstract void FormsPixelEngine.FPE.From.GameWindow.OnUpdate ( )<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
+
+<para>Abstract Method that is called when the Window is Updated. </para>
+</para>
+
+<para><formalpara><title>See also</title>
+
+<para>OnInit(), OnClose() </para>
+</formalpara>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1afbce8b0abdd654dd326b5c8e3067bad1"/><section>
+    <title>input</title>
+<indexterm><primary>input</primary><secondary>FormsPixelEngine.FPE.From.GameWindow</secondary></indexterm>
+<indexterm><primary>FormsPixelEngine.FPE.From.GameWindow</primary><secondary>input</secondary></indexterm>
+<para><computeroutput><link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_input_1_1_input_system">InputSystem</link> FormsPixelEngine.FPE.From.GameWindow.input<computeroutput>[protected]</computeroutput></computeroutput></para>
+<para>Instance of the InputSystem class for use in getting Input for the current window <formalpara><title>See also</title>
+
+<para>InputSystem </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1a6b6c8f590d662cdb4e74b58ebba175b2"/><section>
+    <title>renderer</title>
+<indexterm><primary>renderer</primary><secondary>FormsPixelEngine.FPE.From.GameWindow</secondary></indexterm>
+<indexterm><primary>FormsPixelEngine.FPE.From.GameWindow</primary><secondary>renderer</secondary></indexterm>
+<para><computeroutput><link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer">Renderer</link> FormsPixelEngine.FPE.From.GameWindow.renderer<computeroutput>[protected]</computeroutput></computeroutput></para>
+<para>Instance of the Render class for use in Rendering to the current Window <formalpara><title>See also</title>
+
+<para>Renderer </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1a5b380cd1bd94ddb5fc2c587186168915"/><section>
+    <title>sceneManager</title>
+<indexterm><primary>sceneManager</primary><secondary>FormsPixelEngine.FPE.From.GameWindow</secondary></indexterm>
+<indexterm><primary>FormsPixelEngine.FPE.From.GameWindow</primary><secondary>sceneManager</secondary></indexterm>
+<para><computeroutput><link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_manager">SceneManager</link> FormsPixelEngine.FPE.From.GameWindow.sceneManager<computeroutput>[protected]</computeroutput></computeroutput></para>
+<para>Instance of the SceneManager class for use in managing scenes <formalpara><title>See also</title>
+
+<para>SceneManager </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+From/GameWindow.csFrom/GameWindow.Designer.cs</section>
+</section>

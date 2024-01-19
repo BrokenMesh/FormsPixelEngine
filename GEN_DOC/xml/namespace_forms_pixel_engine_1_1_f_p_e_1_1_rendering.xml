@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespace_forms_pixel_engine_1_1_f_p_e_1_1_rendering" kind="namespace" language="C#">
+    <compoundname>FormsPixelEngine::FPE::Rendering</compoundname>
+    <innerclass refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_camera" prot="public">FormsPixelEngine::FPE::Rendering::Camera</innerclass>
+    <innerclass refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer" prot="public">FormsPixelEngine::FPE::Rendering::Renderer</innerclass>
+    <innernamespace refid="namespace_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites">FormsPixelEngine::FPE::Rendering::Sprites</innernamespace>
+    <innernamespace refid="namespace_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_text">FormsPixelEngine::FPE::Rendering::Text</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Rendering/Camera.cs" line="7" column="1"/>
+  </compounddef>
+</doxygen>

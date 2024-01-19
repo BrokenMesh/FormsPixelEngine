@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_manager" kind="class" language="C#" prot="public">
+    <compoundname>FormsPixelEngine::FPE::Scene::SceneManager</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_manager_1abe074879e9f76da067cbc12994ae6563" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene" kindref="compound">Scene</ref>?</type>
+        <definition>Scene? FormsPixelEngine.FPE.Scene.SceneManager.currentScene</definition>
+        <argsstring></argsstring>
+        <name>currentScene</name>
+        <qualifiedname>FormsPixelEngine.FPE.Scene.SceneManager.currentScene</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scene/SceneManager.cs" line="13" column="22" bodyfile="Scene/SceneManager.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_manager_1aeb04c856448bc11eeb41e3f34ff6d940" prot="private" static="no" mutable="no">
+        <type><ref refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer" kindref="compound">Renderer</ref></type>
+        <definition>Renderer FormsPixelEngine.FPE.Scene.SceneManager.renderer</definition>
+        <argsstring></argsstring>
+        <name>renderer</name>
+        <qualifiedname>FormsPixelEngine.FPE.Scene.SceneManager.renderer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scene/SceneManager.cs" line="15" column="26" bodyfile="Scene/SceneManager.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_manager_1a52a37df9cb5633c3094a59b81a3a0db0" prot="private" static="no" mutable="no">
+        <type><ref refid="class_forms_pixel_engine_1_1_f_p_e_1_1_input_1_1_input_system" kindref="compound">InputSystem</ref></type>
+        <definition>InputSystem FormsPixelEngine.FPE.Scene.SceneManager.input</definition>
+        <argsstring></argsstring>
+        <name>input</name>
+        <qualifiedname>FormsPixelEngine.FPE.Scene.SceneManager.input</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scene/SceneManager.cs" line="16" column="29" bodyfile="Scene/SceneManager.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_manager_1a14abb7db4e709df6cb8483db1e705ecc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FormsPixelEngine.FPE.Scene.SceneManager.SceneManager</definition>
+        <argsstring>(Renderer _renderer, InputSystem _input)</argsstring>
+        <name>SceneManager</name>
+        <qualifiedname>FormsPixelEngine.FPE.Scene.SceneManager.SceneManager</qualifiedname>
+        <param>
+          <type><ref refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer" kindref="compound">Renderer</ref></type>
+          <declname>_renderer</declname>
+        </param>
+        <param>
+          <type><ref refid="class_forms_pixel_engine_1_1_f_p_e_1_1_input_1_1_input_system" kindref="compound">InputSystem</ref></type>
+          <declname>_input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scene/SceneManager.cs" line="18" column="16" bodyfile="Scene/SceneManager.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_manager_1addade3cabcbbb0c8bcda06eeeaa81835" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FormsPixelEngine.FPE.Scene.SceneManager.SetScene</definition>
+        <argsstring>(Scene _scene)</argsstring>
+        <name>SetScene</name>
+        <qualifiedname>FormsPixelEngine.FPE.Scene.SceneManager.SetScene</qualifiedname>
+        <param>
+          <type><ref refid="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene" kindref="compound">Scene</ref></type>
+          <declname>_scene</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scene/SceneManager.cs" line="23" column="21" bodyfile="Scene/SceneManager.cs" bodystart="23" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Scene/SceneManager.cs" line="11" column="11" bodyfile="Scene/SceneManager.cs" bodystart="12" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_manager_1abe074879e9f76da067cbc12994ae6563" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Scene::SceneManager</scope><name>currentScene</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_manager_1a52a37df9cb5633c3094a59b81a3a0db0" prot="private" virt="non-virtual"><scope>FormsPixelEngine::FPE::Scene::SceneManager</scope><name>input</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_manager_1aeb04c856448bc11eeb41e3f34ff6d940" prot="private" virt="non-virtual"><scope>FormsPixelEngine::FPE::Scene::SceneManager</scope><name>renderer</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_manager_1a14abb7db4e709df6cb8483db1e705ecc" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Scene::SceneManager</scope><name>SceneManager</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_manager_1addade3cabcbbb0c8bcda06eeeaa81835" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Scene::SceneManager</scope><name>SetScene</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

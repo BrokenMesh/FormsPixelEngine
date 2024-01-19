@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>FormsPixelEngine::FPE::Scene::Scene</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_1abebf066e5a8b204b8bce2ea629bcf777" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer" kindref="compound">Renderer</ref></type>
+        <definition>Renderer FormsPixelEngine.FPE.Scene.Scene.renderer</definition>
+        <argsstring></argsstring>
+        <name>renderer</name>
+        <qualifiedname>FormsPixelEngine.FPE.Scene.Scene.renderer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scene/Scene.cs" line="13" column="28" bodyfile="Scene/Scene.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_1ad3f29e5109e87381c740d82552a55767" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_forms_pixel_engine_1_1_f_p_e_1_1_input_1_1_input_system" kindref="compound">InputSystem</ref></type>
+        <definition>InputSystem FormsPixelEngine.FPE.Scene.Scene.input</definition>
+        <argsstring></argsstring>
+        <name>input</name>
+        <qualifiedname>FormsPixelEngine.FPE.Scene.Scene.input</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scene/Scene.cs" line="14" column="31" bodyfile="Scene/Scene.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_1a5f12c4d8dc70a334a1c1efcb7e7c5a28" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_manager" kindref="compound">SceneManager</ref></type>
+        <definition>SceneManager FormsPixelEngine.FPE.Scene.Scene.sceneManager</definition>
+        <argsstring></argsstring>
+        <name>sceneManager</name>
+        <qualifiedname>FormsPixelEngine.FPE.Scene.Scene.sceneManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scene/Scene.cs" line="15" column="32" bodyfile="Scene/Scene.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_1a5d34810faa7fafc2caf36425aaa84830" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FormsPixelEngine.FPE.Scene.Scene.deltaTime</definition>
+        <argsstring></argsstring>
+        <name>deltaTime</name>
+        <qualifiedname>FormsPixelEngine.FPE.Scene.Scene.deltaTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scene/Scene.cs" line="16" column="25" bodyfile="Scene/Scene.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_1a365098e0e90780fb7d7c1ffb21ab5253" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FormsPixelEngine.FPE.Scene.Scene.InitScene</definition>
+        <argsstring>(Renderer _renderer, InputSystem _input, SceneManager _sceneManager)</argsstring>
+        <name>InitScene</name>
+        <qualifiedname>FormsPixelEngine.FPE.Scene.Scene.InitScene</qualifiedname>
+        <param>
+          <type><ref refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer" kindref="compound">Renderer</ref></type>
+          <declname>_renderer</declname>
+        </param>
+        <param>
+          <type><ref refid="class_forms_pixel_engine_1_1_f_p_e_1_1_input_1_1_input_system" kindref="compound">InputSystem</ref></type>
+          <declname>_input</declname>
+        </param>
+        <param>
+          <type><ref refid="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_manager" kindref="compound">SceneManager</ref></type>
+          <declname>_sceneManager</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scene/Scene.cs" line="18" column="21" bodyfile="Scene/Scene.cs" bodystart="18" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_1a5b5d07437f688ecc1a9a2db12e17e9c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FormsPixelEngine.FPE.Scene.Scene.UpdateScene</definition>
+        <argsstring>(float _deltatime)</argsstring>
+        <name>UpdateScene</name>
+        <qualifiedname>FormsPixelEngine.FPE.Scene.Scene.UpdateScene</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>_deltatime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scene/Scene.cs" line="26" column="21" bodyfile="Scene/Scene.cs" bodystart="26" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_1a8e0ae8bc28a0babe2f632fd5fd9776c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void FormsPixelEngine.FPE.Scene.Scene.Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <qualifiedname>FormsPixelEngine.FPE.Scene.Scene.Init</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scene/Scene.cs" line="32" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_1aa1b6832fd12a00da579fd4594bb0625f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void FormsPixelEngine.FPE.Scene.Scene.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>FormsPixelEngine.FPE.Scene.Scene.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scene/Scene.cs" line="33" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_1ad3c7a192d78a3e1ec046266a7debad7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void FormsPixelEngine.FPE.Scene.Scene.Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <qualifiedname>FormsPixelEngine.FPE.Scene.Scene.Close</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scene/Scene.cs" line="34" column="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>FormsPixelEngine.FPE.Scene.Scene</label>
+        <link refid="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>renderer</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>input</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>sceneManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>FormsPixelEngine.FPE.Input.InputSystem</label>
+        <link refid="class_forms_pixel_engine_1_1_f_p_e_1_1_input_1_1_input_system"/>
+      </node>
+      <node id="2">
+        <label>FormsPixelEngine.FPE.Rendering.Renderer</label>
+        <link refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer"/>
+      </node>
+      <node id="4">
+        <label>FormsPixelEngine.FPE.Scene.SceneManager</label>
+        <link refid="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_manager"/>
+      </node>
+    </collaborationgraph>
+    <location file="Scene/Scene.cs" line="11" column="21" bodyfile="Scene/Scene.cs" bodystart="12" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_1ad3c7a192d78a3e1ec046266a7debad7b" prot="public" virt="pure-virtual"><scope>FormsPixelEngine::FPE::Scene::Scene</scope><name>Close</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_1a5d34810faa7fafc2caf36425aaa84830" prot="protected" virt="non-virtual"><scope>FormsPixelEngine::FPE::Scene::Scene</scope><name>deltaTime</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_1a8e0ae8bc28a0babe2f632fd5fd9776c9" prot="public" virt="pure-virtual"><scope>FormsPixelEngine::FPE::Scene::Scene</scope><name>Init</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_1a365098e0e90780fb7d7c1ffb21ab5253" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Scene::Scene</scope><name>InitScene</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_1ad3f29e5109e87381c740d82552a55767" prot="protected" virt="non-virtual"><scope>FormsPixelEngine::FPE::Scene::Scene</scope><name>input</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_1abebf066e5a8b204b8bce2ea629bcf777" prot="protected" virt="non-virtual"><scope>FormsPixelEngine::FPE::Scene::Scene</scope><name>renderer</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_1a5f12c4d8dc70a334a1c1efcb7e7c5a28" prot="protected" virt="non-virtual"><scope>FormsPixelEngine::FPE::Scene::Scene</scope><name>sceneManager</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_1aa1b6832fd12a00da579fd4594bb0625f" prot="public" virt="pure-virtual"><scope>FormsPixelEngine::FPE::Scene::Scene</scope><name>Update</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_1a5b5d07437f688ecc1a9a2db12e17e9c1" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Scene::Scene</scope><name>UpdateScene</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

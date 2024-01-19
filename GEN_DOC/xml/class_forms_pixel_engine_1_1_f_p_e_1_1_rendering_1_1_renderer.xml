@@ -1,0 +1,475 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer" kind="class" language="C#" prot="public">
+    <compoundname>FormsPixelEngine::FPE::Rendering::Renderer</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1aaa9e7df63960d146d7ce3686accdaa0a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>uint</type>
+        <definition>uint FormsPixelEngine.FPE.Rendering.Renderer.pixelWidth</definition>
+        <argsstring></argsstring>
+        <name>pixelWidth</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Renderer.pixelWidth</qualifiedname>
+        <briefdescription>
+<para>Width of the screen in pixels. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Renderer.cs" line="18" column="21" bodyfile="Rendering/Renderer.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1a7ccca8ddffb986612fe919cb0a0bd56d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>uint</type>
+        <definition>uint FormsPixelEngine.FPE.Rendering.Renderer.pixelHeight</definition>
+        <argsstring></argsstring>
+        <name>pixelHeight</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Renderer.pixelHeight</qualifiedname>
+        <briefdescription>
+<para>Height of the screen in pixels. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Renderer.cs" line="19" column="21" bodyfile="Rendering/Renderer.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1af801f23c2302f3290f2d53e8144a8ddf" prot="private" static="no" mutable="no">
+        <type>GCHandle</type>
+        <definition>GCHandle FormsPixelEngine.FPE.Rendering.Renderer.pixelBufferHandle</definition>
+        <argsstring></argsstring>
+        <name>pixelBufferHandle</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Renderer.pixelBufferHandle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Renderer.cs" line="21" column="26" bodyfile="Rendering/Renderer.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1a113cfabf6afecf3056bf577153365724" prot="private" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint FormsPixelEngine.FPE.Rendering.Renderer.drawColorBit</definition>
+        <argsstring></argsstring>
+        <name>drawColorBit</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Renderer.drawColorBit</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Renderer.cs" line="23" column="22" bodyfile="Rendering/Renderer.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1ae433baadae4861ffd3607dc45f683e86" prot="private" static="no" mutable="no">
+        <type><ref refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_camera" kindref="compound">Camera</ref></type>
+        <definition>Camera FormsPixelEngine.FPE.Rendering.Renderer.curCamera</definition>
+        <argsstring></argsstring>
+        <name>curCamera</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Renderer.curCamera</qualifiedname>
+        <initializer>= new <ref refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_camera" kindref="compound">Camera</ref>(0,0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Renderer.cs" line="24" column="24" bodyfile="Rendering/Renderer.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1ac1940c619d440b7a08df9a6ea6c8df70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FormsPixelEngine.FPE.Rendering.Renderer.Renderer</definition>
+        <argsstring>(uint _pixelWidth, uint _pixelHeight)</argsstring>
+        <name>Renderer</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Renderer.Renderer</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>_pixelWidth</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>_pixelHeight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Renderer.cs" line="26" column="16" bodyfile="Rendering/Renderer.cs" bodystart="26" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1adcc43286ac7ffdf073e22a129b4daeba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FormsPixelEngine.FPE.Rendering.Renderer.DrawSprite</definition>
+        <argsstring>(int _x, int _y, Sprite _sprite)</argsstring>
+        <name>DrawSprite</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Renderer.DrawSprite</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>_x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_y</declname>
+        </param>
+        <param>
+          <type><ref refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_sprite" kindref="compound">Sprite</ref></type>
+          <declname>_sprite</declname>
+        </param>
+        <briefdescription>
+<para>Draws a sprite onto the screen. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>X position of sprite </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Y position of sprite </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_sprite</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sprite to be rendered </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>Sprite, TextureSprite </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Renderer.cs" line="41" column="21" bodyfile="Rendering/Renderer.cs" bodystart="41" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1abb1832bbd0ca725e897ae9159441b94a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FormsPixelEngine.FPE.Rendering.Renderer.DrawRect</definition>
+        <argsstring>(int _x, int _y, int _w, int _h)</argsstring>
+        <name>DrawRect</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Renderer.DrawRect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>_x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_h</declname>
+        </param>
+        <briefdescription>
+<para>Draws a rectangle onto the screen using the current draw color. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>X position of the rectangle </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Y position of the rectangle </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Width of the rectangle </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Height of the rectangle </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>SetDrawColor </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Renderer.cs" line="73" column="21" bodyfile="Rendering/Renderer.cs" bodystart="73" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1a59581adf615a963f7b54909bc019ee9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FormsPixelEngine.FPE.Rendering.Renderer.DrawText</definition>
+        <argsstring>(int _x, int _y, string _text, FPEFont _font)</argsstring>
+        <name>DrawText</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Renderer.DrawText</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>_x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_y</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>_text</declname>
+        </param>
+        <param>
+          <type><ref refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_text_1_1_f_p_e_font" kindref="compound">FPEFont</ref></type>
+          <declname>_font</declname>
+        </param>
+        <briefdescription>
+<para>Draws a text onto the screen. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>X position of the text </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Y position of the text </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the actual text to be rendered. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_font</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the font to be used for rendering. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>FPEFont </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Renderer.cs" line="101" column="21" bodyfile="Rendering/Renderer.cs" bodystart="101" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1aac5a7c7089fbce398b462fe3db02d4bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FormsPixelEngine.FPE.Rendering.Renderer.SetDrawColor</definition>
+        <argsstring>(Vector3 _drawColor)</argsstring>
+        <name>SetDrawColor</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Renderer.SetDrawColor</qualifiedname>
+        <param>
+          <type>Vector3</type>
+          <declname>_drawColor</declname>
+        </param>
+        <briefdescription>
+<para>Sets the draw color. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_drawColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The color (a vector 3 where (x,y,z) represents (r,g,b) in the color range of 0 - 255) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>DrawRect </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Renderer.cs" line="146" column="21" bodyfile="Rendering/Renderer.cs" bodystart="146" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1ae6958022fc2aa2d1953e674d4d9b360d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FormsPixelEngine.FPE.Rendering.Renderer.PushCamera</definition>
+        <argsstring>(Camera _camera)</argsstring>
+        <name>PushCamera</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Renderer.PushCamera</qualifiedname>
+        <param>
+          <type><ref refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_camera" kindref="compound">Camera</ref></type>
+          <declname>_camera</declname>
+        </param>
+        <briefdescription>
+<para>Sets the camera to be used for rendering. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_camera</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the camera </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>Camera, PopCamera </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Renderer.cs" line="156" column="21" bodyfile="Rendering/Renderer.cs" bodystart="156" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1a04092ddbd9c2e19a6512b62b586fe7ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FormsPixelEngine.FPE.Rendering.Renderer.PopCamera</definition>
+        <argsstring>()</argsstring>
+        <name>PopCamera</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Renderer.PopCamera</qualifiedname>
+        <briefdescription>
+<para>Removes camera and makes future draw call relative to the screen. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para>Camera, PushCamera </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Renderer.cs" line="164" column="21" bodyfile="Rendering/Renderer.cs" bodystart="164" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1ab2db670e2f3e112563d908a11ef22226" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FormsPixelEngine.FPE.Rendering.Renderer.ClearScreen</definition>
+        <argsstring>(Vector3 _clearColor)</argsstring>
+        <name>ClearScreen</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Renderer.ClearScreen</qualifiedname>
+        <param>
+          <type>Vector3</type>
+          <declname>_clearColor</declname>
+        </param>
+        <briefdescription>
+<para>Clears the screen with a set color. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_clearColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The color (a vector 3 where (x,y,z) represents (r,g,b) in the color range of 0 - 255) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Renderer.cs" line="172" column="21" bodyfile="Rendering/Renderer.cs" bodystart="172" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1a7e38b6fa7acf8191fd8c60aa4f0dd6b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint?[]</type>
+        <definition>uint?[] FormsPixelEngine.FPE.Rendering.Renderer.GetPixelBuffer</definition>
+        <argsstring>()</argsstring>
+        <name>GetPixelBuffer</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Renderer.GetPixelBuffer</qualifiedname>
+        <briefdescription>
+<para>Gets the buffer of pixels. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Renderer.cs" line="190" column="21" bodyfile="Rendering/Renderer.cs" bodystart="190" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1a40f8631dd59ee9483d7e3f495913c689" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IntPtr</type>
+        <definition>IntPtr FormsPixelEngine.FPE.Rendering.Renderer.GetPixelBufferPtr</definition>
+        <argsstring>()</argsstring>
+        <name>GetPixelBufferPtr</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Renderer.GetPixelBufferPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Renderer.cs" line="194" column="23" bodyfile="Rendering/Renderer.cs" bodystart="194" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1a6c316ff51ebd86d0b4d3b41c9f6a2674" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FormsPixelEngine.FPE.Rendering.Renderer.Destroy</definition>
+        <argsstring>()</argsstring>
+        <name>Destroy</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Renderer.Destroy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Renderer.cs" line="199" column="21" bodyfile="Rendering/Renderer.cs" bodystart="199" bodyend="201"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Renders to the Window. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This class allows rendering to the window. It provides several Methods for Drawing Images, Shapes and Text. <linebreak/>
+ </para>
+    </detaileddescription>
+    <location file="Rendering/Renderer.cs" line="16" column="11" bodyfile="Rendering/Renderer.cs" bodystart="17" bodyend="202"/>
+    <listofallmembers>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1ab2db670e2f3e112563d908a11ef22226" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Renderer</scope><name>ClearScreen</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1ae433baadae4861ffd3607dc45f683e86" prot="private" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Renderer</scope><name>curCamera</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1a6c316ff51ebd86d0b4d3b41c9f6a2674" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Renderer</scope><name>Destroy</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1a113cfabf6afecf3056bf577153365724" prot="private" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Renderer</scope><name>drawColorBit</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1abb1832bbd0ca725e897ae9159441b94a" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Renderer</scope><name>DrawRect</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1adcc43286ac7ffdf073e22a129b4daeba" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Renderer</scope><name>DrawSprite</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1a59581adf615a963f7b54909bc019ee9e" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Renderer</scope><name>DrawText</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1a7e38b6fa7acf8191fd8c60aa4f0dd6b8" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Renderer</scope><name>GetPixelBuffer</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1a40f8631dd59ee9483d7e3f495913c689" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Renderer</scope><name>GetPixelBufferPtr</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1af801f23c2302f3290f2d53e8144a8ddf" prot="private" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Renderer</scope><name>pixelBufferHandle</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1a7ccca8ddffb986612fe919cb0a0bd56d" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Renderer</scope><name>pixelHeight</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1aaa9e7df63960d146d7ce3686accdaa0a" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Renderer</scope><name>pixelWidth</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1a04092ddbd9c2e19a6512b62b586fe7ad" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Renderer</scope><name>PopCamera</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1ae6958022fc2aa2d1953e674d4d9b360d" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Renderer</scope><name>PushCamera</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1ac1940c619d440b7a08df9a6ea6c8df70" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Renderer</scope><name>Renderer</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_1aac5a7c7089fbce398b462fe3db02d4bb" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Renderer</scope><name>SetDrawColor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

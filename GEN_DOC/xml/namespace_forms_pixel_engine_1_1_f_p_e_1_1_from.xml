@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespace_forms_pixel_engine_1_1_f_p_e_1_1_from" kind="namespace" language="C#">
+    <compoundname>FormsPixelEngine::FPE::From</compoundname>
+    <innerclass refid="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window" prot="public">FormsPixelEngine::FPE::From::GameWindow</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="From/GameWindow.cs" line="11" column="1"/>
+  </compounddef>
+</doxygen>

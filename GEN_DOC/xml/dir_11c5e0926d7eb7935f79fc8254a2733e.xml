@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_11c5e0926d7eb7935f79fc8254a2733e" kind="dir">
+    <compoundname>obj/Release/net6.0-windows</compoundname>
+    <innerfile refid="_release_2net6_80-windows_2_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs">.NETCoreApp,Version=v6.0.AssemblyAttributes.cs</innerfile>
+    <innerfile refid="_release_2net6_80-windows_2_forms_pixel_engine_8_assembly_info_8cs">FormsPixelEngine.AssemblyInfo.cs</innerfile>
+    <innerfile refid="_release_2net6_80-windows_2_forms_pixel_engine_8_global_usings_8g_8cs">FormsPixelEngine.GlobalUsings.g.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="obj/Release/net6.0-windows/"/>
+  </compounddef>
+</doxygen>

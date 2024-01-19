@@ -1,0 +1,80 @@
+.TH "FormsPixelEngine.FPE.Rendering.Text.FPEFont" 3 "Tue Feb 14 2023" "Version 0.1.0" "FromsPixelEngin" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FormsPixelEngine.FPE.Rendering.Text.FPEFont \- Represents a font and is used for text rendering\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBFPEFont\fP (string _fontpath, string _texturepath)"
+.br
+.RI "Constructor of FPEFont\&. "
+.ti -1c
+.RI "\fBCharData\fP \fBGetChar\fP (char _c)"
+.br
+.RI "Returns the information of a character as a CharData struct\&. "
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBVerticalSpacing\fP = 10"
+.br
+.RI "Defines the space between lines of Text\&. "
+.ti -1c
+.RI "int \fBKerning\fP = 0"
+.br
+.RI "Defines the space between text characters\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Represents a font and is used for text rendering\&. 
+
+This class loads a font file and is used to render text\&. 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "FormsPixelEngine\&.FPE\&.Rendering\&.Text\&.FPEFont\&.FPEFont (string _fontpath, string _texturepath)"
+
+.PP
+Constructor of FPEFont\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fI_fontpath\fP The filepath of the \&.fpeFont file\&. 
+.br
+\fI_texturepath\fP The filepath of the font texture file\&. 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBCharData\fP FormsPixelEngine\&.FPE\&.Rendering\&.Text\&.FPEFont\&.GetChar (char _c)"
+
+.PP
+Returns the information of a character as a CharData struct\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fI_c\fP The demanded character 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Returns the character information as a CharData struct\&. 
+.RE
+.PP
+\fBSee also\fP
+.RS 4
+CharData 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for FromsPixelEngin from the source code\&.

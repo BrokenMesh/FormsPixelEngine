@@ -1,0 +1,235 @@
+\doxysection{Forms\+Pixel\+Engine.\+FPE.\+Input Namespace Reference}
+\label{namespace_forms_pixel_engine_1_1_f_p_e_1_1_input}\index{FormsPixelEngine.FPE.Input@{FormsPixelEngine.FPE.Input}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \textbf{ Input\+System}
+\begin{DoxyCompactList}\small\item\em Class for handling user Input. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{namespace_forms_pixel_engine_1_1_f_p_e_1_1_input_a46987678695562d79b848f250940a0e5}} 
+enum \textbf{ Key\+Code} \{ \newline
+{\bfseries Key\+Code} = 0x0000\+FFFF
+, {\bfseries Modifiers} = unchecked((int)0x\+FFFF0000)
+, {\bfseries None} = 0x00
+, {\bfseries LButton} = 0x01
+, \newline
+{\bfseries RButton} = 0x02
+, {\bfseries Cancel} = 0x03
+, {\bfseries MButton} = 0x04
+, {\bfseries XButton1} = 0x05
+, \newline
+{\bfseries XButton2} = 0x06
+, {\bfseries Back} = 0x08
+, {\bfseries Tab} = 0x09
+, {\bfseries Line\+Feed} = 0x0A
+, \newline
+{\bfseries Clear} = 0x0C
+, {\bfseries Return} = 0x0D
+, {\bfseries Enter} = Return
+, {\bfseries Shift\+Key} = 0x10
+, \newline
+{\bfseries Control\+Key} = 0x11
+, {\bfseries Menu} = 0x12
+, {\bfseries Pause} = 0x13
+, {\bfseries Capital} = 0x14
+, \newline
+{\bfseries Caps\+Lock} = 0x14
+, {\bfseries Kana\+Mode} = 0x15
+, {\bfseries Hanguel\+Mode} = 0x15
+, {\bfseries Hangul\+Mode} = 0x15
+, \newline
+{\bfseries Junja\+Mode} = 0x17
+, {\bfseries Final\+Mode} = 0x18
+, {\bfseries Hanja\+Mode} = 0x19
+, {\bfseries Kanji\+Mode} = 0x19
+, \newline
+{\bfseries Escape} = 0x1B
+, {\bfseries Space} = 0x20
+, {\bfseries Prior} = 0x21
+, {\bfseries Page\+Up} = Prior
+, \newline
+{\bfseries Next} = 0x22
+, {\bfseries Page\+Down} = Next
+, {\bfseries End} = 0x23
+, {\bfseries Home} = 0x24
+, \newline
+{\bfseries Left} = 0x25
+, {\bfseries Up} = 0x26
+, {\bfseries Right} = 0x27
+, {\bfseries Down} = 0x28
+, \newline
+{\bfseries Select} = 0x29
+, {\bfseries Print} = 0x2A
+, {\bfseries Execute} = 0x2B
+, {\bfseries Snapshot} = 0x2C
+, \newline
+{\bfseries Print\+Screen} = Snapshot
+, {\bfseries Insert} = 0x2D
+, {\bfseries Delete} = 0x2E
+, {\bfseries Help} = 0x2F
+, \newline
+{\bfseries D0} = 0x30
+, {\bfseries D1} = 0x31
+, {\bfseries D2} = 0x32
+, {\bfseries D3} = 0x33
+, \newline
+{\bfseries D4} = 0x34
+, {\bfseries D5} = 0x35
+, {\bfseries D6} = 0x36
+, {\bfseries D7} = 0x37
+, \newline
+{\bfseries D8} = 0x38
+, {\bfseries D9} = 0x39
+, {\bfseries A} = 0x41
+, {\bfseries B} = 0x42
+, \newline
+{\bfseries C} = 0x43
+, {\bfseries D} = 0x44
+, {\bfseries E} = 0x45
+, {\bfseries F} = 0x46
+, \newline
+{\bfseries G} = 0x47
+, {\bfseries H} = 0x48
+, {\bfseries I} = 0x49
+, {\bfseries J} = 0x4A
+, \newline
+{\bfseries K} = 0x4B
+, {\bfseries L} = 0x4C
+, {\bfseries M} = 0x4D
+, {\bfseries N} = 0x4E
+, \newline
+{\bfseries O} = 0x4F
+, {\bfseries P} = 0x50
+, {\bfseries Q} = 0x51
+, {\bfseries R} = 0x52
+, \newline
+{\bfseries S} = 0x53
+, {\bfseries T} = 0x54
+, {\bfseries U} = 0x55
+, {\bfseries V} = 0x56
+, \newline
+{\bfseries W} = 0x57
+, {\bfseries X} = 0x58
+, {\bfseries Y} = 0x59
+, {\bfseries Z} = 0x5A
+, \newline
+{\bfseries LWin} = 0x5B
+, {\bfseries RWin} = 0x5C
+, {\bfseries Apps} = 0x5D
+, {\bfseries Sleep} = 0x5F
+, \newline
+{\bfseries Num\+Pad0} = 0x60
+, {\bfseries Num\+Pad1} = 0x61
+, {\bfseries Num\+Pad2} = 0x62
+, {\bfseries Num\+Pad3} = 0x63
+, \newline
+{\bfseries Num\+Pad4} = 0x64
+, {\bfseries Num\+Pad5} = 0x65
+, {\bfseries Num\+Pad6} = 0x66
+, {\bfseries Num\+Pad7} = 0x67
+, \newline
+{\bfseries Num\+Pad8} = 0x68
+, {\bfseries Num\+Pad9} = 0x69
+, {\bfseries Multiply} = 0x6A
+, {\bfseries Add} = 0x6B
+, \newline
+{\bfseries Separator} = 0x6C
+, {\bfseries Subtract} = 0x6D
+, {\bfseries Decimal} = 0x6E
+, {\bfseries Divide} = 0x6F
+, \newline
+{\bfseries F1} = 0x70
+, {\bfseries F2} = 0x71
+, {\bfseries F3} = 0x72
+, {\bfseries F4} = 0x73
+, \newline
+{\bfseries F5} = 0x74
+, {\bfseries F6} = 0x75
+, {\bfseries F7} = 0x76
+, {\bfseries F8} = 0x77
+, \newline
+{\bfseries F9} = 0x78
+, {\bfseries F10} = 0x79
+, {\bfseries F11} = 0x7A
+, {\bfseries F12} = 0x7B
+, \newline
+{\bfseries F13} = 0x7C
+, {\bfseries F14} = 0x7D
+, {\bfseries F15} = 0x7E
+, {\bfseries F16} = 0x7F
+, \newline
+{\bfseries F17} = 0x80
+, {\bfseries F18} = 0x81
+, {\bfseries F19} = 0x82
+, {\bfseries F20} = 0x83
+, \newline
+{\bfseries F21} = 0x84
+, {\bfseries F22} = 0x85
+, {\bfseries F23} = 0x86
+, {\bfseries F24} = 0x87
+, \newline
+{\bfseries Num\+Lock} = 0x90
+, {\bfseries Scroll} = 0x91
+, {\bfseries LShift\+Key} = 0x\+A0
+, {\bfseries RShift\+Key} = 0x\+A1
+, \newline
+{\bfseries LControl\+Key} = 0x\+A2
+, {\bfseries RControl\+Key} = 0x\+A3
+, {\bfseries LMenu} = 0x\+A4
+, {\bfseries RMenu} = 0x\+A5
+, \newline
+{\bfseries Browser\+Back} = 0x\+A6
+, {\bfseries Browser\+Forward} = 0x\+A7
+, {\bfseries Browser\+Refresh} = 0x\+A8
+, {\bfseries Oem\+Semicolon} = 0x\+BA
+, \newline
+{\bfseries Oem1} = Oem\+Semicolon
+, {\bfseries Oemplus} = 0x\+BB
+, {\bfseries Oemcomma} = 0x\+BC
+, {\bfseries Oem\+Minus} = 0x\+BD
+, \newline
+{\bfseries Oem\+Period} = 0x\+BE
+, {\bfseries Oem\+Question} = 0x\+BF
+, {\bfseries Oem2} = Oem\+Question
+, {\bfseries Oemtilde} = 0x\+C0
+, \newline
+{\bfseries Oem3} = Oemtilde
+, {\bfseries Oem\+Open\+Brackets} = 0x\+DB
+, {\bfseries Oem4} = Oem\+Open\+Brackets
+, {\bfseries Oem\+Pipe} = 0x\+DC
+, \newline
+{\bfseries Oem5} = Oem\+Pipe
+, {\bfseries Oem\+Close\+Brackets} = 0x\+DD
+, {\bfseries Oem6} = Oem\+Close\+Brackets
+, {\bfseries Oem\+Quotes} = 0x\+DE
+, \newline
+{\bfseries Oem7} = Oem\+Quotes
+, {\bfseries Oem8} = 0x\+DF
+, {\bfseries Oem\+Backslash} = 0x\+E2
+, {\bfseries Oem102} = Oem\+Backslash
+, \newline
+{\bfseries Oem\+Clear} = 0x\+FE
+, {\bfseries Shift} = 0x00010000
+, {\bfseries Control} = 0x00020000
+, {\bfseries Alt} = 0x00040000
+ \}
+\begin{DoxyCompactList}\small\item\em Enum defining all posible windows keyboard keys. \end{DoxyCompactList}\item 
+\mbox{\label{namespace_forms_pixel_engine_1_1_f_p_e_1_1_input_ab9bce9a21587956da299b41b1ed0a3d7}} 
+enum \textbf{ Mouse\+Button} \{ \newline
+{\bfseries Button1} = 0
+, {\bfseries Button2} = 1
+, {\bfseries Button3} = 2
+, {\bfseries Button4} = 3
+, \newline
+{\bfseries Button5} = 4
+, {\bfseries Button6} = 5
+, {\bfseries Button7} = 6
+, {\bfseries Button8} = 7
+, \newline
+{\bfseries Left} = Button1
+, {\bfseries Right} = Button2
+, {\bfseries Middle} = Button3
+ \}
+\begin{DoxyCompactList}\small\item\em Enum defining all posible mouse buttons keys. \end{DoxyCompactList}\end{DoxyCompactItemize}

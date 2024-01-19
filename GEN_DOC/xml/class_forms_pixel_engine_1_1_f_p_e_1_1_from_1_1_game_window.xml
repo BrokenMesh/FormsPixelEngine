@@ -1,0 +1,392 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>FormsPixelEngine::FPE::From::GameWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1a8fc17e4b257b3c86574bc3439fe96b94" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer FormsPixelEngine.FPE.From.GameWindow.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <qualifiedname>FormsPixelEngine.FPE.From.GameWindow.components</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="From/GameWindow.Designer.cs" line="16" column="48" bodyfile="From/GameWindow.Designer.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1a0fb6b91b2cd44f379c97ae94bc6d1f60" prot="private" static="no" mutable="no">
+        <type>Stopwatch</type>
+        <definition>Stopwatch FormsPixelEngine.FPE.From.GameWindow.deltaTimeTracker</definition>
+        <argsstring></argsstring>
+        <name>deltaTimeTracker</name>
+        <qualifiedname>FormsPixelEngine.FPE.From.GameWindow.deltaTimeTracker</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="From/GameWindow.Designer.cs" line="17" column="27" bodyfile="From/GameWindow.Designer.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1a6b6c8f590d662cdb4e74b58ebba175b2" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer" kindref="compound">Renderer</ref></type>
+        <definition>Renderer FormsPixelEngine.FPE.From.GameWindow.renderer</definition>
+        <argsstring></argsstring>
+        <name>renderer</name>
+        <qualifiedname>FormsPixelEngine.FPE.From.GameWindow.renderer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Instance of the Render class for use in Rendering to the current Window <simplesect kind="see"><para>Renderer </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="From/GameWindow.Designer.cs" line="19" column="28" bodyfile="From/GameWindow.Designer.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1afbce8b0abdd654dd326b5c8e3067bad1" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_forms_pixel_engine_1_1_f_p_e_1_1_input_1_1_input_system" kindref="compound">InputSystem</ref></type>
+        <definition>InputSystem FormsPixelEngine.FPE.From.GameWindow.input</definition>
+        <argsstring></argsstring>
+        <name>input</name>
+        <qualifiedname>FormsPixelEngine.FPE.From.GameWindow.input</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Instance of the InputSystem class for use in getting Input for the current window <simplesect kind="see"><para>InputSystem </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="From/GameWindow.Designer.cs" line="20" column="31" bodyfile="From/GameWindow.Designer.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1a5b380cd1bd94ddb5fc2c587186168915" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_manager" kindref="compound">SceneManager</ref></type>
+        <definition>SceneManager FormsPixelEngine.FPE.From.GameWindow.sceneManager</definition>
+        <argsstring></argsstring>
+        <name>sceneManager</name>
+        <qualifiedname>FormsPixelEngine.FPE.From.GameWindow.sceneManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Instance of the SceneManager class for use in managing scenes <simplesect kind="see"><para>SceneManager </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="From/GameWindow.Designer.cs" line="21" column="32" bodyfile="From/GameWindow.Designer.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1a0bf4095de202436302be5b94592e88d3" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FormsPixelEngine.FPE.From.GameWindow.deltaTime</definition>
+        <argsstring></argsstring>
+        <name>deltaTime</name>
+        <qualifiedname>FormsPixelEngine.FPE.From.GameWindow.deltaTime</qualifiedname>
+        <briefdescription>
+<para>Times used to process last Frame. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="From/GameWindow.Designer.cs" line="23" column="25" bodyfile="From/GameWindow.Designer.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1ae4313aac69c53e74a64eae43187988c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FormsPixelEngine.FPE.From.GameWindow.GameWindow</definition>
+        <argsstring>(string _title, uint _windowWidth, uint _windowHeight, uint _pixelWidth, uint _pixelHeight)</argsstring>
+        <name>GameWindow</name>
+        <qualifiedname>FormsPixelEngine.FPE.From.GameWindow.GameWindow</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>_title</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>_windowWidth</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>_windowHeight</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>_pixelWidth</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>_pixelHeight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="From/GameWindow.cs" line="15" column="16" bodyfile="From/GameWindow.cs" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1af81cabdbe384ec396e7e4e7c03817fe2" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void FormsPixelEngine.FPE.From.GameWindow.OnInit</definition>
+        <argsstring>()</argsstring>
+        <name>OnInit</name>
+        <qualifiedname>FormsPixelEngine.FPE.From.GameWindow.OnInit</qualifiedname>
+        <briefdescription>
+<para>Abstract Method that is called on Window Initialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para>OnUpdate(), OnClose() </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="From/GameWindow.Designer.cs" line="98" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1a36c278f3c2366219106684a3250ea0f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void FormsPixelEngine.FPE.From.GameWindow.OnUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>OnUpdate</name>
+        <qualifiedname>FormsPixelEngine.FPE.From.GameWindow.OnUpdate</qualifiedname>
+        <briefdescription>
+<para>Abstract Method that is called when the Window is Updated. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para>OnInit(), OnClose() </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="From/GameWindow.Designer.cs" line="104" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1ab85a69ec38b0ed8ae058faf2d80fe2f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void FormsPixelEngine.FPE.From.GameWindow.OnClose</definition>
+        <argsstring>()</argsstring>
+        <name>OnClose</name>
+        <qualifiedname>FormsPixelEngine.FPE.From.GameWindow.OnClose</qualifiedname>
+        <briefdescription>
+<para>Abstract Method that is called when the Window is Closed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para>OnInit(), OnUpdate() </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="From/GameWindow.Designer.cs" line="110" column="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1ac60818141ecf33c48a91fa9c76013dc6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FormsPixelEngine.FPE.From.GameWindow.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>FormsPixelEngine.FPE.From.GameWindow.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="From/GameWindow.Designer.cs" line="25" column="33" bodyfile="From/GameWindow.Designer.cs" bodystart="25" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1a5f673b2cea664b26cfe50565e69cdb60" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FormsPixelEngine.FPE.From.GameWindow.OnPaint</definition>
+        <argsstring>(PaintEventArgs e)</argsstring>
+        <name>OnPaint</name>
+        <qualifiedname>FormsPixelEngine.FPE.From.GameWindow.OnPaint</qualifiedname>
+        <param>
+          <type>PaintEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="From/GameWindow.Designer.cs" line="63" column="33" bodyfile="From/GameWindow.Designer.cs" bodystart="63" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1a3512cdf766bd547e1c0e1457365a45e8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FormsPixelEngine.FPE.From.GameWindow.OnClosing</definition>
+        <argsstring>(CancelEventArgs e)</argsstring>
+        <name>OnClosing</name>
+        <qualifiedname>FormsPixelEngine.FPE.From.GameWindow.OnClosing</qualifiedname>
+        <param>
+          <type>CancelEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="From/GameWindow.Designer.cs" line="76" column="33" bodyfile="From/GameWindow.Designer.cs" bodystart="76" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1ac9cd09c20be3dd72e47faef4a220304d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FormsPixelEngine.FPE.From.GameWindow.OnKeyDown</definition>
+        <argsstring>(KeyEventArgs e)</argsstring>
+        <name>OnKeyDown</name>
+        <qualifiedname>FormsPixelEngine.FPE.From.GameWindow.OnKeyDown</qualifiedname>
+        <param>
+          <type>KeyEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="From/GameWindow.Designer.cs" line="84" column="33" bodyfile="From/GameWindow.Designer.cs" bodystart="84" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1aa53786230e5b13ad1678a2a0e1fefb61" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FormsPixelEngine.FPE.From.GameWindow.OnKeyUp</definition>
+        <argsstring>(KeyEventArgs e)</argsstring>
+        <name>OnKeyUp</name>
+        <qualifiedname>FormsPixelEngine.FPE.From.GameWindow.OnKeyUp</qualifiedname>
+        <param>
+          <type>KeyEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="From/GameWindow.Designer.cs" line="89" column="33" bodyfile="From/GameWindow.Designer.cs" bodystart="89" bodyend="92"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1a05b63a018cd3b33310230d30f3b5337e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FormsPixelEngine.FPE.From.GameWindow.InitializeComponent</definition>
+        <argsstring>(string _title, uint _windowWidth, uint _windowHeight, uint _pixelWidth, uint _pixelHeight)</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>FormsPixelEngine.FPE.From.GameWindow.InitializeComponent</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>_title</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>_windowWidth</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>_windowHeight</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>_pixelWidth</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>_pixelHeight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="From/GameWindow.Designer.cs" line="32" column="22" bodyfile="From/GameWindow.Designer.cs" bodystart="32" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>abstract GameWindow class </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This class is the center of the FPE. When inherited it gives access to Rendering, Input, and other systems. The class that inherits GameWindow must also be a MS Form. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="1">
+        <label>FormsPixelEngine.FPE.From.GameWindow</label>
+        <link refid="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="1">
+        <label>FormsPixelEngine.FPE.From.GameWindow</label>
+        <link refid="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>renderer</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>input</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>sceneManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>FormsPixelEngine.FPE.Input.InputSystem</label>
+        <link refid="class_forms_pixel_engine_1_1_f_p_e_1_1_input_1_1_input_system"/>
+      </node>
+      <node id="3">
+        <label>FormsPixelEngine.FPE.Rendering.Renderer</label>
+        <link refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer"/>
+      </node>
+      <node id="5">
+        <label>FormsPixelEngine.FPE.Scene.SceneManager</label>
+        <link refid="class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_manager"/>
+      </node>
+    </collaborationgraph>
+    <location file="From/GameWindow.cs" line="13" column="28" bodyfile="From/GameWindow.cs" bodystart="14" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1a8fc17e4b257b3c86574bc3439fe96b94" prot="private" virt="non-virtual"><scope>FormsPixelEngine::FPE::From::GameWindow</scope><name>components</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1a0bf4095de202436302be5b94592e88d3" prot="protected" virt="non-virtual"><scope>FormsPixelEngine::FPE::From::GameWindow</scope><name>deltaTime</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1a0fb6b91b2cd44f379c97ae94bc6d1f60" prot="private" virt="non-virtual"><scope>FormsPixelEngine::FPE::From::GameWindow</scope><name>deltaTimeTracker</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1ac60818141ecf33c48a91fa9c76013dc6" prot="protected" virt="non-virtual"><scope>FormsPixelEngine::FPE::From::GameWindow</scope><name>Dispose</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1ae4313aac69c53e74a64eae43187988c3" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::From::GameWindow</scope><name>GameWindow</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1a05b63a018cd3b33310230d30f3b5337e" prot="private" virt="non-virtual"><scope>FormsPixelEngine::FPE::From::GameWindow</scope><name>InitializeComponent</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1afbce8b0abdd654dd326b5c8e3067bad1" prot="protected" virt="non-virtual"><scope>FormsPixelEngine::FPE::From::GameWindow</scope><name>input</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1ab85a69ec38b0ed8ae058faf2d80fe2f4" prot="public" virt="pure-virtual"><scope>FormsPixelEngine::FPE::From::GameWindow</scope><name>OnClose</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1a3512cdf766bd547e1c0e1457365a45e8" prot="protected" virt="non-virtual"><scope>FormsPixelEngine::FPE::From::GameWindow</scope><name>OnClosing</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1af81cabdbe384ec396e7e4e7c03817fe2" prot="public" virt="pure-virtual"><scope>FormsPixelEngine::FPE::From::GameWindow</scope><name>OnInit</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1ac9cd09c20be3dd72e47faef4a220304d" prot="protected" virt="non-virtual"><scope>FormsPixelEngine::FPE::From::GameWindow</scope><name>OnKeyDown</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1aa53786230e5b13ad1678a2a0e1fefb61" prot="protected" virt="non-virtual"><scope>FormsPixelEngine::FPE::From::GameWindow</scope><name>OnKeyUp</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1a5f673b2cea664b26cfe50565e69cdb60" prot="protected" virt="non-virtual"><scope>FormsPixelEngine::FPE::From::GameWindow</scope><name>OnPaint</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1a36c278f3c2366219106684a3250ea0f3" prot="public" virt="pure-virtual"><scope>FormsPixelEngine::FPE::From::GameWindow</scope><name>OnUpdate</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1a6b6c8f590d662cdb4e74b58ebba175b2" prot="protected" virt="non-virtual"><scope>FormsPixelEngine::FPE::From::GameWindow</scope><name>renderer</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_1a5b380cd1bd94ddb5fc2c587186168915" prot="protected" virt="non-virtual"><scope>FormsPixelEngine::FPE::From::GameWindow</scope><name>sceneManager</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,31 @@
+.TH "FormsPixelEngine.FPE.Input" 3 "Tue Feb 14 2023" "Version 0.1.0" "FromsPixelEngin" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FormsPixelEngine.FPE.Input
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBInputSystem\fP"
+.br
+.RI "Class for handling user Input\&. "
+.in -1c
+.SS "Enumerations"
+
+.in +1c
+.ti -1c
+.RI "enum \fBKeyCode\fP { \fBKeyCode\fP = 0x0000FFFF, \fBModifiers\fP = unchecked((int)0xFFFF0000), \fBNone\fP = 0x00, \fBLButton\fP = 0x01, \fBRButton\fP = 0x02, \fBCancel\fP = 0x03, \fBMButton\fP = 0x04, \fBXButton1\fP = 0x05, \fBXButton2\fP = 0x06, \fBBack\fP = 0x08, \fBTab\fP = 0x09, \fBLineFeed\fP = 0x0A, \fBClear\fP = 0x0C, \fBReturn\fP = 0x0D, \fBEnter\fP = Return, \fBShiftKey\fP = 0x10, \fBControlKey\fP = 0x11, \fBMenu\fP = 0x12, \fBPause\fP = 0x13, \fBCapital\fP = 0x14, \fBCapsLock\fP = 0x14, \fBKanaMode\fP = 0x15, \fBHanguelMode\fP = 0x15, \fBHangulMode\fP = 0x15, \fBJunjaMode\fP = 0x17, \fBFinalMode\fP = 0x18, \fBHanjaMode\fP = 0x19, \fBKanjiMode\fP = 0x19, \fBEscape\fP = 0x1B, \fBSpace\fP = 0x20, \fBPrior\fP = 0x21, \fBPageUp\fP = Prior, \fBNext\fP = 0x22, \fBPageDown\fP = Next, \fBEnd\fP = 0x23, \fBHome\fP = 0x24, \fBLeft\fP = 0x25, \fBUp\fP = 0x26, \fBRight\fP = 0x27, \fBDown\fP = 0x28, \fBSelect\fP = 0x29, \fBPrint\fP = 0x2A, \fBExecute\fP = 0x2B, \fBSnapshot\fP = 0x2C, \fBPrintScreen\fP = Snapshot, \fBInsert\fP = 0x2D, \fBDelete\fP = 0x2E, \fBHelp\fP = 0x2F, \fBD0\fP = 0x30, \fBD1\fP = 0x31, \fBD2\fP = 0x32, \fBD3\fP = 0x33, \fBD4\fP = 0x34, \fBD5\fP = 0x35, \fBD6\fP = 0x36, \fBD7\fP = 0x37, \fBD8\fP = 0x38, \fBD9\fP = 0x39, \fBA\fP = 0x41, \fBB\fP = 0x42, \fBC\fP = 0x43, \fBD\fP = 0x44, \fBE\fP = 0x45, \fBF\fP = 0x46, \fBG\fP = 0x47, \fBH\fP = 0x48, \fBI\fP = 0x49, \fBJ\fP = 0x4A, \fBK\fP = 0x4B, \fBL\fP = 0x4C, \fBM\fP = 0x4D, \fBN\fP = 0x4E, \fBO\fP = 0x4F, \fBP\fP = 0x50, \fBQ\fP = 0x51, \fBR\fP = 0x52, \fBS\fP = 0x53, \fBT\fP = 0x54, \fBU\fP = 0x55, \fBV\fP = 0x56, \fBW\fP = 0x57, \fBX\fP = 0x58, \fBY\fP = 0x59, \fBZ\fP = 0x5A, \fBLWin\fP = 0x5B, \fBRWin\fP = 0x5C, \fBApps\fP = 0x5D, \fBSleep\fP = 0x5F, \fBNumPad0\fP = 0x60, \fBNumPad1\fP = 0x61, \fBNumPad2\fP = 0x62, \fBNumPad3\fP = 0x63, \fBNumPad4\fP = 0x64, \fBNumPad5\fP = 0x65, \fBNumPad6\fP = 0x66, \fBNumPad7\fP = 0x67, \fBNumPad8\fP = 0x68, \fBNumPad9\fP = 0x69, \fBMultiply\fP = 0x6A, \fBAdd\fP = 0x6B, \fBSeparator\fP = 0x6C, \fBSubtract\fP = 0x6D, \fBDecimal\fP = 0x6E, \fBDivide\fP = 0x6F, \fBF1\fP = 0x70, \fBF2\fP = 0x71, \fBF3\fP = 0x72, \fBF4\fP = 0x73, \fBF5\fP = 0x74, \fBF6\fP = 0x75, \fBF7\fP = 0x76, \fBF8\fP = 0x77, \fBF9\fP = 0x78, \fBF10\fP = 0x79, \fBF11\fP = 0x7A, \fBF12\fP = 0x7B, \fBF13\fP = 0x7C, \fBF14\fP = 0x7D, \fBF15\fP = 0x7E, \fBF16\fP = 0x7F, \fBF17\fP = 0x80, \fBF18\fP = 0x81, \fBF19\fP = 0x82, \fBF20\fP = 0x83, \fBF21\fP = 0x84, \fBF22\fP = 0x85, \fBF23\fP = 0x86, \fBF24\fP = 0x87, \fBNumLock\fP = 0x90, \fBScroll\fP = 0x91, \fBLShiftKey\fP = 0xA0, \fBRShiftKey\fP = 0xA1, \fBLControlKey\fP = 0xA2, \fBRControlKey\fP = 0xA3, \fBLMenu\fP = 0xA4, \fBRMenu\fP = 0xA5, \fBBrowserBack\fP = 0xA6, \fBBrowserForward\fP = 0xA7, \fBBrowserRefresh\fP = 0xA8, \fBOemSemicolon\fP = 0xBA, \fBOem1\fP = OemSemicolon, \fBOemplus\fP = 0xBB, \fBOemcomma\fP = 0xBC, \fBOemMinus\fP = 0xBD, \fBOemPeriod\fP = 0xBE, \fBOemQuestion\fP = 0xBF, \fBOem2\fP = OemQuestion, \fBOemtilde\fP = 0xC0, \fBOem3\fP = Oemtilde, \fBOemOpenBrackets\fP = 0xDB, \fBOem4\fP = OemOpenBrackets, \fBOemPipe\fP = 0xDC, \fBOem5\fP = OemPipe, \fBOemCloseBrackets\fP = 0xDD, \fBOem6\fP = OemCloseBrackets, \fBOemQuotes\fP = 0xDE, \fBOem7\fP = OemQuotes, \fBOem8\fP = 0xDF, \fBOemBackslash\fP = 0xE2, \fBOem102\fP = OemBackslash, \fBOemClear\fP = 0xFE, \fBShift\fP = 0x00010000, \fBControl\fP = 0x00020000, \fBAlt\fP = 0x00040000 }"
+.br
+.RI "Enum defining all posible windows keyboard keys\&. "
+.ti -1c
+.RI "enum \fBMouseButton\fP { \fBButton1\fP = 0, \fBButton2\fP = 1, \fBButton3\fP = 2, \fBButton4\fP = 3, \fBButton5\fP = 4, \fBButton6\fP = 5, \fBButton7\fP = 6, \fBButton8\fP = 7, \fBLeft\fP = Button1, \fBRight\fP = Button2, \fBMiddle\fP = Button3 }"
+.br
+.RI "Enum defining all posible mouse buttons keys\&. "
+.in -1c
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for FromsPixelEngin from the source code\&.

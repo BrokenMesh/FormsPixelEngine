@@ -1,0 +1,89 @@
+.TH "FormsPixelEngine.FPE.Input.InputSystem" 3 "Tue Feb 14 2023" "Version 0.1.0" "FromsPixelEngin" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FormsPixelEngine.FPE.Input.InputSystem \- Class for handling user Input\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBUpdate\fP (uint keyValue, bool _state)"
+.br
+.ti -1c
+.RI "bool \fBKeyPressed\fP (\fBKeyCode\fP key)"
+.br
+.RI "Returns true if the given key was pressed\&. "
+.ti -1c
+.RI "void \fBSubscribeKey\fP (\fBKeyCode\fP _key)"
+.br
+.RI "Adds the key to the Subscriptions and checks its state every Frame\&. "
+.ti -1c
+.RI "void \fBUnsubscribeKey\fP (\fBKeyCode\fP _key)"
+.br
+.RI "Removes the key to the Subscriptions and stops checking its state every Frame\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Class for handling user Input\&. 
+
+This class allows the subscribing to keys\&. if a subscribed key is being pressed the KeyPressed method would return true\&. 
+.br
+ 
+.SH "Member Function Documentation"
+.PP 
+.SS "bool FormsPixelEngine\&.FPE\&.Input\&.InputSystem\&.KeyPressed (\fBKeyCode\fP key)"
+
+.PP
+Returns true if the given key was pressed\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIKey\fP The Key that will be checked 
+.RE
+.PP
+\fBSee also\fP
+.RS 4
+KeyCode\&.cs 
+.RE
+.PP
+
+.SS "void FormsPixelEngine\&.FPE\&.Input\&.InputSystem\&.SubscribeKey (\fBKeyCode\fP _key)"
+
+.PP
+Adds the key to the Subscriptions and checks its state every Frame\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIKey\fP The Key that will be added 
+.RE
+.PP
+\fBSee also\fP
+.RS 4
+KeyCode\&.cs 
+.RE
+.PP
+
+.SS "void FormsPixelEngine\&.FPE\&.Input\&.InputSystem\&.UnsubscribeKey (\fBKeyCode\fP _key)"
+
+.PP
+Removes the key to the Subscriptions and stops checking its state every Frame\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIKey\fP The Key that will be removed 
+.RE
+.PP
+\fBSee also\fP
+.RS 4
+KeyCode\&.cs 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for FromsPixelEngin from the source code\&.

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_sprite" xml:lang="en-US">
+<title>FormsPixelEngine.FPE.Rendering.Sprites.Sprite Class Reference</title>
+<indexterm><primary>FormsPixelEngine.FPE.Rendering.Sprites.Sprite</primary></indexterm>
+<para>
+
+<para>Represents a generic sprite. </para>
+ 
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>abstract uint[] <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_sprite_1a5ffd54b2e8d02008eb5ee20cdf263e0f">GetPixelData</link> ()</para>
+
+<para>Returns the image data. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_sprite_1a722e6b3878386c3512c34e134e6fda2d"/>abstract uint <emphasis role="strong">Width</emphasis><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Width of the Sprite. </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_sprite_1acf483d378804378625b79d41596ffba5"/>abstract uint <emphasis role="strong">Height</emphasis><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Height of the Sprite. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Represents a generic sprite. </para>
+
+
+
+<para>This abstract class represents a generic sprite. It holds an array of Pixels, the Width and Height of a Sprite </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_sprite_1a5ffd54b2e8d02008eb5ee20cdf263e0f"/><section>
+    <title>GetPixelData()</title>
+<indexterm><primary>GetPixelData</primary><secondary>FormsPixelEngine.FPE.Rendering.Sprites.Sprite</secondary></indexterm>
+<indexterm><primary>FormsPixelEngine.FPE.Rendering.Sprites.Sprite</primary><secondary>GetPixelData</secondary></indexterm>
+<para><computeroutput>abstract uint[] FormsPixelEngine.FPE.Rendering.Sprites.Sprite.GetPixelData ( )<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
+
+<para>Returns the image data. </para>
+</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>Array of unsigned Integers that represent the image pixel data. </para>
+</formalpara>
+</para>
+<para>
+Implemented in <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_texture_sprite_1a672fea0eb7ae1007fd6c005f042e0e72">FormsPixelEngine.FPE.Rendering.Sprites.TextureSprite</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Rendering/Sprites/Sprite.cs</section>
+</section>

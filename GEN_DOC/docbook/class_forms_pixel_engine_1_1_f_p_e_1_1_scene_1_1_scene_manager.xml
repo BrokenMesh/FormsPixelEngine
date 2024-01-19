@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_manager" xml:lang="en-US">
+<title>FormsPixelEngine.FPE.Scene.SceneManager Class Reference</title>
+<indexterm><primary>FormsPixelEngine.FPE.Scene.SceneManager</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_manager_1a14abb7db4e709df6cb8483db1e705ecc"/><emphasis role="strong">SceneManager</emphasis> (<link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer">Renderer</link> _renderer, <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_input_1_1_input_system">InputSystem</link> _input)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_manager_1addade3cabcbbb0c8bcda06eeeaa81835"/>void <emphasis role="strong">SetScene</emphasis> (<link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene">Scene</link> _scene)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_manager_1abe074879e9f76da067cbc12994ae6563"/><link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene">Scene</link>? <emphasis role="strong">currentScene</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+Scene/SceneManager.cs</section>

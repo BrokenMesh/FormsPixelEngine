@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_sprite" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>FormsPixelEngine::FPE::Rendering::Sprites::Sprite</compoundname>
+    <derivedcompoundref refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_texture_sprite" prot="public" virt="non-virtual">FormsPixelEngine.FPE.Rendering.Sprites.TextureSprite</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_sprite_1a722e6b3878386c3512c34e134e6fda2d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>abstract uint</type>
+        <definition>abstract uint FormsPixelEngine.FPE.Rendering.Sprites.Sprite.Width</definition>
+        <argsstring></argsstring>
+        <name>Width</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Sprites.Sprite.Width</qualifiedname>
+        <briefdescription>
+<para>Width of the Sprite. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Sprites/Sprite.cs" line="17" column="30" bodyfile="Rendering/Sprites/Sprite.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_sprite_1acf483d378804378625b79d41596ffba5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>abstract uint</type>
+        <definition>abstract uint FormsPixelEngine.FPE.Rendering.Sprites.Sprite.Height</definition>
+        <argsstring></argsstring>
+        <name>Height</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Sprites.Sprite.Height</qualifiedname>
+        <briefdescription>
+<para>Height of the Sprite. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Sprites/Sprite.cs" line="18" column="30" bodyfile="Rendering/Sprites/Sprite.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_sprite_1a5ffd54b2e8d02008eb5ee20cdf263e0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract uint[]</type>
+        <definition>abstract uint[] FormsPixelEngine.FPE.Rendering.Sprites.Sprite.GetPixelData</definition>
+        <argsstring>()</argsstring>
+        <name>GetPixelData</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Sprites.Sprite.GetPixelData</qualifiedname>
+        <reimplementedby refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_texture_sprite_1a672fea0eb7ae1007fd6c005f042e0e72">GetPixelData</reimplementedby>
+        <briefdescription>
+<para>Returns the image data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Array of unsigned Integers that represent the image pixel data. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Sprites/Sprite.cs" line="24" column="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents a generic sprite. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This abstract class represents a generic sprite. It holds an array of Pixels, the Width and Height of a Sprite </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FormsPixelEngine.FPE.Rendering.Sprites.Sprite</label>
+        <link refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_sprite"/>
+      </node>
+      <node id="2">
+        <label>FormsPixelEngine.FPE.Rendering.Sprites.TextureSprite</label>
+        <link refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_texture_sprite"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="Rendering/Sprites/Sprite.cs" line="15" column="21" bodyfile="Rendering/Sprites/Sprite.cs" bodystart="16" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_sprite_1a5ffd54b2e8d02008eb5ee20cdf263e0f" prot="public" virt="pure-virtual"><scope>FormsPixelEngine::FPE::Rendering::Sprites::Sprite</scope><name>GetPixelData</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_sprite_1acf483d378804378625b79d41596ffba5" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Sprites::Sprite</scope><name>Height</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_sprite_1a722e6b3878386c3512c34e134e6fda2d" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Sprites::Sprite</scope><name>Width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

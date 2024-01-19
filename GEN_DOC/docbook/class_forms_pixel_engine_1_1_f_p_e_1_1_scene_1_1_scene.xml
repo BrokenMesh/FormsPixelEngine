@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene" xml:lang="en-US">
+<title>FormsPixelEngine.FPE.Scene.Scene Class Reference</title>
+<indexterm><primary>FormsPixelEngine.FPE.Scene.Scene</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_1a365098e0e90780fb7d7c1ffb21ab5253"/>void <emphasis role="strong">InitScene</emphasis> (<link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer">Renderer</link> _renderer, <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_input_1_1_input_system">InputSystem</link> _input, <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_manager">SceneManager</link> _sceneManager)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_1a5b5d07437f688ecc1a9a2db12e17e9c1"/>void <emphasis role="strong">UpdateScene</emphasis> (float _deltatime)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_1a8e0ae8bc28a0babe2f632fd5fd9776c9"/>abstract void <emphasis role="strong">Init</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_1aa1b6832fd12a00da579fd4594bb0625f"/>abstract void <emphasis role="strong">Update</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_1ad3c7a192d78a3e1ec046266a7debad7b"/>abstract void <emphasis role="strong">Close</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_1abebf066e5a8b204b8bce2ea629bcf777"/><link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer">Renderer</link> <emphasis role="strong">renderer</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_1ad3f29e5109e87381c740d82552a55767"/><link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_input_1_1_input_system">InputSystem</link> <emphasis role="strong">input</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_1a5f12c4d8dc70a334a1c1efcb7e7c5a28"/><link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_manager">SceneManager</link> <emphasis role="strong">sceneManager</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_scene_1_1_scene_1a5d34810faa7fafc2caf36425aaa84830"/>float <emphasis role="strong">deltaTime</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+Scene/Scene.cs</section>

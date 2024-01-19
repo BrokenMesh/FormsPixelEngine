@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_forms_pixel_engine_1_1_f_p_e_1_1_input" xml:lang="en-US">
+<title>FormsPixelEngine.FPE.Input Namespace Reference</title>
+<indexterm><primary>FormsPixelEngine.FPE.Input</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_input_1_1_input_system">InputSystem</link></para>
+
+<para>Class for handling user Input. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Enumerations    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_namespace_forms_pixel_engine_1_1_f_p_e_1_1_input_1a46987678695562d79b848f250940a0e5"/>enum <link linkend="_namespace_forms_pixel_engine_1_1_f_p_e_1_1_input_1a46987678695562d79b848f250940a0e5">KeyCode</link> { <?linebreak?><emphasis role="strong">KeyCode</emphasis> = 0x0000FFFF
+, <emphasis role="strong">Modifiers</emphasis> = unchecked((int)0xFFFF0000)
+, <emphasis role="strong">None</emphasis> = 0x00
+, <emphasis role="strong">LButton</emphasis> = 0x01
+, <?linebreak?><emphasis role="strong">RButton</emphasis> = 0x02
+, <emphasis role="strong">Cancel</emphasis> = 0x03
+, <emphasis role="strong">MButton</emphasis> = 0x04
+, <emphasis role="strong">XButton1</emphasis> = 0x05
+, <?linebreak?><emphasis role="strong">XButton2</emphasis> = 0x06
+, <emphasis role="strong">Back</emphasis> = 0x08
+, <emphasis role="strong">Tab</emphasis> = 0x09
+, <emphasis role="strong">LineFeed</emphasis> = 0x0A
+, <?linebreak?><emphasis role="strong">Clear</emphasis> = 0x0C
+, <emphasis role="strong">Return</emphasis> = 0x0D
+, <emphasis role="strong">Enter</emphasis> = Return
+, <emphasis role="strong">ShiftKey</emphasis> = 0x10
+, <?linebreak?><emphasis role="strong">ControlKey</emphasis> = 0x11
+, <emphasis role="strong">Menu</emphasis> = 0x12
+, <emphasis role="strong">Pause</emphasis> = 0x13
+, <emphasis role="strong">Capital</emphasis> = 0x14
+, <?linebreak?><emphasis role="strong">CapsLock</emphasis> = 0x14
+, <emphasis role="strong">KanaMode</emphasis> = 0x15
+, <emphasis role="strong">HanguelMode</emphasis> = 0x15
+, <emphasis role="strong">HangulMode</emphasis> = 0x15
+, <?linebreak?><emphasis role="strong">JunjaMode</emphasis> = 0x17
+, <emphasis role="strong">FinalMode</emphasis> = 0x18
+, <emphasis role="strong">HanjaMode</emphasis> = 0x19
+, <emphasis role="strong">KanjiMode</emphasis> = 0x19
+, <?linebreak?><emphasis role="strong">Escape</emphasis> = 0x1B
+, <emphasis role="strong">Space</emphasis> = 0x20
+, <emphasis role="strong">Prior</emphasis> = 0x21
+, <emphasis role="strong">PageUp</emphasis> = Prior
+, <?linebreak?><emphasis role="strong">Next</emphasis> = 0x22
+, <emphasis role="strong">PageDown</emphasis> = Next
+, <emphasis role="strong">End</emphasis> = 0x23
+, <emphasis role="strong">Home</emphasis> = 0x24
+, <?linebreak?><emphasis role="strong">Left</emphasis> = 0x25
+, <emphasis role="strong">Up</emphasis> = 0x26
+, <emphasis role="strong">Right</emphasis> = 0x27
+, <emphasis role="strong">Down</emphasis> = 0x28
+, <?linebreak?><emphasis role="strong">Select</emphasis> = 0x29
+, <emphasis role="strong">Print</emphasis> = 0x2A
+, <emphasis role="strong">Execute</emphasis> = 0x2B
+, <emphasis role="strong">Snapshot</emphasis> = 0x2C
+, <?linebreak?><emphasis role="strong">PrintScreen</emphasis> = Snapshot
+, <emphasis role="strong">Insert</emphasis> = 0x2D
+, <emphasis role="strong">Delete</emphasis> = 0x2E
+, <emphasis role="strong">Help</emphasis> = 0x2F
+, <?linebreak?><emphasis role="strong">D0</emphasis> = 0x30
+, <emphasis role="strong">D1</emphasis> = 0x31
+, <emphasis role="strong">D2</emphasis> = 0x32
+, <emphasis role="strong">D3</emphasis> = 0x33
+, <?linebreak?><emphasis role="strong">D4</emphasis> = 0x34
+, <emphasis role="strong">D5</emphasis> = 0x35
+, <emphasis role="strong">D6</emphasis> = 0x36
+, <emphasis role="strong">D7</emphasis> = 0x37
+, <?linebreak?><emphasis role="strong">D8</emphasis> = 0x38
+, <emphasis role="strong">D9</emphasis> = 0x39
+, <emphasis role="strong">A</emphasis> = 0x41
+, <emphasis role="strong">B</emphasis> = 0x42
+, <?linebreak?><emphasis role="strong">C</emphasis> = 0x43
+, <emphasis role="strong">D</emphasis> = 0x44
+, <emphasis role="strong">E</emphasis> = 0x45
+, <emphasis role="strong">F</emphasis> = 0x46
+, <?linebreak?><emphasis role="strong">G</emphasis> = 0x47
+, <emphasis role="strong">H</emphasis> = 0x48
+, <emphasis role="strong">I</emphasis> = 0x49
+, <emphasis role="strong">J</emphasis> = 0x4A
+, <?linebreak?><emphasis role="strong">K</emphasis> = 0x4B
+, <emphasis role="strong">L</emphasis> = 0x4C
+, <emphasis role="strong">M</emphasis> = 0x4D
+, <emphasis role="strong">N</emphasis> = 0x4E
+, <?linebreak?><emphasis role="strong">O</emphasis> = 0x4F
+, <emphasis role="strong">P</emphasis> = 0x50
+, <emphasis role="strong">Q</emphasis> = 0x51
+, <emphasis role="strong">R</emphasis> = 0x52
+, <?linebreak?><emphasis role="strong">S</emphasis> = 0x53
+, <emphasis role="strong">T</emphasis> = 0x54
+, <emphasis role="strong">U</emphasis> = 0x55
+, <emphasis role="strong">V</emphasis> = 0x56
+, <?linebreak?><emphasis role="strong">W</emphasis> = 0x57
+, <emphasis role="strong">X</emphasis> = 0x58
+, <emphasis role="strong">Y</emphasis> = 0x59
+, <emphasis role="strong">Z</emphasis> = 0x5A
+, <?linebreak?><emphasis role="strong">LWin</emphasis> = 0x5B
+, <emphasis role="strong">RWin</emphasis> = 0x5C
+, <emphasis role="strong">Apps</emphasis> = 0x5D
+, <emphasis role="strong">Sleep</emphasis> = 0x5F
+, <?linebreak?><emphasis role="strong">NumPad0</emphasis> = 0x60
+, <emphasis role="strong">NumPad1</emphasis> = 0x61
+, <emphasis role="strong">NumPad2</emphasis> = 0x62
+, <emphasis role="strong">NumPad3</emphasis> = 0x63
+, <?linebreak?><emphasis role="strong">NumPad4</emphasis> = 0x64
+, <emphasis role="strong">NumPad5</emphasis> = 0x65
+, <emphasis role="strong">NumPad6</emphasis> = 0x66
+, <emphasis role="strong">NumPad7</emphasis> = 0x67
+, <?linebreak?><emphasis role="strong">NumPad8</emphasis> = 0x68
+, <emphasis role="strong">NumPad9</emphasis> = 0x69
+, <emphasis role="strong">Multiply</emphasis> = 0x6A
+, <emphasis role="strong">Add</emphasis> = 0x6B
+, <?linebreak?><emphasis role="strong">Separator</emphasis> = 0x6C
+, <emphasis role="strong">Subtract</emphasis> = 0x6D
+, <emphasis role="strong">Decimal</emphasis> = 0x6E
+, <emphasis role="strong">Divide</emphasis> = 0x6F
+, <?linebreak?><emphasis role="strong">F1</emphasis> = 0x70
+, <emphasis role="strong">F2</emphasis> = 0x71
+, <emphasis role="strong">F3</emphasis> = 0x72
+, <emphasis role="strong">F4</emphasis> = 0x73
+, <?linebreak?><emphasis role="strong">F5</emphasis> = 0x74
+, <emphasis role="strong">F6</emphasis> = 0x75
+, <emphasis role="strong">F7</emphasis> = 0x76
+, <emphasis role="strong">F8</emphasis> = 0x77
+, <?linebreak?><emphasis role="strong">F9</emphasis> = 0x78
+, <emphasis role="strong">F10</emphasis> = 0x79
+, <emphasis role="strong">F11</emphasis> = 0x7A
+, <emphasis role="strong">F12</emphasis> = 0x7B
+, <?linebreak?><emphasis role="strong">F13</emphasis> = 0x7C
+, <emphasis role="strong">F14</emphasis> = 0x7D
+, <emphasis role="strong">F15</emphasis> = 0x7E
+, <emphasis role="strong">F16</emphasis> = 0x7F
+, <?linebreak?><emphasis role="strong">F17</emphasis> = 0x80
+, <emphasis role="strong">F18</emphasis> = 0x81
+, <emphasis role="strong">F19</emphasis> = 0x82
+, <emphasis role="strong">F20</emphasis> = 0x83
+, <?linebreak?><emphasis role="strong">F21</emphasis> = 0x84
+, <emphasis role="strong">F22</emphasis> = 0x85
+, <emphasis role="strong">F23</emphasis> = 0x86
+, <emphasis role="strong">F24</emphasis> = 0x87
+, <?linebreak?><emphasis role="strong">NumLock</emphasis> = 0x90
+, <emphasis role="strong">Scroll</emphasis> = 0x91
+, <emphasis role="strong">LShiftKey</emphasis> = 0xA0
+, <emphasis role="strong">RShiftKey</emphasis> = 0xA1
+, <?linebreak?><emphasis role="strong">LControlKey</emphasis> = 0xA2
+, <emphasis role="strong">RControlKey</emphasis> = 0xA3
+, <emphasis role="strong">LMenu</emphasis> = 0xA4
+, <emphasis role="strong">RMenu</emphasis> = 0xA5
+, <?linebreak?><emphasis role="strong">BrowserBack</emphasis> = 0xA6
+, <emphasis role="strong">BrowserForward</emphasis> = 0xA7
+, <emphasis role="strong">BrowserRefresh</emphasis> = 0xA8
+, <emphasis role="strong">OemSemicolon</emphasis> = 0xBA
+, <?linebreak?><emphasis role="strong">Oem1</emphasis> = OemSemicolon
+, <emphasis role="strong">Oemplus</emphasis> = 0xBB
+, <emphasis role="strong">Oemcomma</emphasis> = 0xBC
+, <emphasis role="strong">OemMinus</emphasis> = 0xBD
+, <?linebreak?><emphasis role="strong">OemPeriod</emphasis> = 0xBE
+, <emphasis role="strong">OemQuestion</emphasis> = 0xBF
+, <emphasis role="strong">Oem2</emphasis> = OemQuestion
+, <emphasis role="strong">Oemtilde</emphasis> = 0xC0
+, <?linebreak?><emphasis role="strong">Oem3</emphasis> = Oemtilde
+, <emphasis role="strong">OemOpenBrackets</emphasis> = 0xDB
+, <emphasis role="strong">Oem4</emphasis> = OemOpenBrackets
+, <emphasis role="strong">OemPipe</emphasis> = 0xDC
+, <?linebreak?><emphasis role="strong">Oem5</emphasis> = OemPipe
+, <emphasis role="strong">OemCloseBrackets</emphasis> = 0xDD
+, <emphasis role="strong">Oem6</emphasis> = OemCloseBrackets
+, <emphasis role="strong">OemQuotes</emphasis> = 0xDE
+, <?linebreak?><emphasis role="strong">Oem7</emphasis> = OemQuotes
+, <emphasis role="strong">Oem8</emphasis> = 0xDF
+, <emphasis role="strong">OemBackslash</emphasis> = 0xE2
+, <emphasis role="strong">Oem102</emphasis> = OemBackslash
+, <?linebreak?><emphasis role="strong">OemClear</emphasis> = 0xFE
+, <emphasis role="strong">Shift</emphasis> = 0x00010000
+, <emphasis role="strong">Control</emphasis> = 0x00020000
+, <emphasis role="strong">Alt</emphasis> = 0x00040000
+ }</para>
+
+<para>Enum defining all posible windows keyboard keys. </para>
+</listitem>
+            <listitem><para><anchor xml:id="_namespace_forms_pixel_engine_1_1_f_p_e_1_1_input_1ab9bce9a21587956da299b41b1ed0a3d7"/>enum <link linkend="_namespace_forms_pixel_engine_1_1_f_p_e_1_1_input_1ab9bce9a21587956da299b41b1ed0a3d7">MouseButton</link> { <?linebreak?><emphasis role="strong">Button1</emphasis> = 0
+, <emphasis role="strong">Button2</emphasis> = 1
+, <emphasis role="strong">Button3</emphasis> = 2
+, <emphasis role="strong">Button4</emphasis> = 3
+, <?linebreak?><emphasis role="strong">Button5</emphasis> = 4
+, <emphasis role="strong">Button6</emphasis> = 5
+, <emphasis role="strong">Button7</emphasis> = 6
+, <emphasis role="strong">Button8</emphasis> = 7
+, <?linebreak?><emphasis role="strong">Left</emphasis> = Button1
+, <emphasis role="strong">Right</emphasis> = Button2
+, <emphasis role="strong">Middle</emphasis> = Button3
+ }</para>
+
+<para>Enum defining all posible mouse buttons keys. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

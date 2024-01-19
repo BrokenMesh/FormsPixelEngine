@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespace_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites" kind="namespace" language="C#">
+    <compoundname>FormsPixelEngine::FPE::Rendering::Sprites</compoundname>
+    <innerclass refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_sprite" prot="public">FormsPixelEngine::FPE::Rendering::Sprites::Sprite</innerclass>
+    <innerclass refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_texture_sprite" prot="public">FormsPixelEngine::FPE::Rendering::Sprites::TextureSprite</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Rendering/Sprites/Sprite.cs" line="7" column="1"/>
+  </compounddef>
+</doxygen>

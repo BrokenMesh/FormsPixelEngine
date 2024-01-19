@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="struct_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_text_1_1_char_data" kind="class" language="C#" prot="public">
+    <compoundname>FormsPixelEngine::FPE::Rendering::Text::CharData</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_text_1_1_char_data_1acad7777fcfd1080e447a63577691ecea" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char FormsPixelEngine.FPE.Rendering.Text.CharData.org</definition>
+        <argsstring></argsstring>
+        <name>org</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Text.CharData.org</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Text/FPEFont.cs" line="91" column="21" bodyfile="Rendering/Text/FPEFont.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_text_1_1_char_data_1aad02f2c68ac30763e314d1dcca06a64b" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint FormsPixelEngine.FPE.Rendering.Text.CharData.width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Text.CharData.width</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Text/FPEFont.cs" line="92" column="21" bodyfile="Rendering/Text/FPEFont.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_text_1_1_char_data_1abc497204c44605b1a58ee67584566a53" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint FormsPixelEngine.FPE.Rendering.Text.CharData.height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Text.CharData.height</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Text/FPEFont.cs" line="92" column="27" bodyfile="Rendering/Text/FPEFont.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_text_1_1_char_data_1ab29fc4ef343347931e6c6b4482e6e367" prot="public" static="no" mutable="no">
+        <type>uint[]</type>
+        <definition>uint [] FormsPixelEngine.FPE.Rendering.Text.CharData.pixelData</definition>
+        <argsstring></argsstring>
+        <name>pixelData</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Text.CharData.pixelData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Text/FPEFont.cs" line="93" column="21" bodyfile="Rendering/Text/FPEFont.cs" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents the character information for text rendering. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This class holds the width, hight and pixel data for the rendering of Text </para>
+    </detaileddescription>
+    <location file="Rendering/Text/FPEFont.cs" line="90" column="11" bodyfile="Rendering/Text/FPEFont.cs" bodystart="90" bodyend="94"/>
+    <listofallmembers>
+      <member refid="struct_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_text_1_1_char_data_1abc497204c44605b1a58ee67584566a53" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Text::CharData</scope><name>height</name></member>
+      <member refid="struct_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_text_1_1_char_data_1acad7777fcfd1080e447a63577691ecea" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Text::CharData</scope><name>org</name></member>
+      <member refid="struct_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_text_1_1_char_data_1ab29fc4ef343347931e6c6b4482e6e367" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Text::CharData</scope><name>pixelData</name></member>
+      <member refid="struct_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_text_1_1_char_data_1aad02f2c68ac30763e314d1dcca06a64b" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Text::CharData</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

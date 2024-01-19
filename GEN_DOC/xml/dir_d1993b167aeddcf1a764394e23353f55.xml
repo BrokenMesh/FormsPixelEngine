@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_d1993b167aeddcf1a764394e23353f55" kind="dir">
+    <compoundname>FPE/Input</compoundname>
+    <innerfile refid="_input_system_8cs">InputSystem.cs</innerfile>
+    <innerfile refid="_key_code_8cs">KeyCode.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="FPE/Input/"/>
+  </compounddef>
+</doxygen>

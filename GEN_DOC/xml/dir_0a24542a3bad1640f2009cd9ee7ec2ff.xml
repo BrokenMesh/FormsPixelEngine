@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_0a24542a3bad1640f2009cd9ee7ec2ff" kind="dir">
+    <compoundname>FPE/Rendering/Text</compoundname>
+    <innerfile refid="_f_p_e_font_8cs">FPEFont.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="FPE/Rendering/Text/"/>
+  </compounddef>
+</doxygen>

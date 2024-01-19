@@ -1,0 +1,137 @@
+.TH "FormsPixelEngine.FPE.From.GameWindow" 3 "Tue Feb 14 2023" "Version 0.1.0" "FromsPixelEngin" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FormsPixelEngine.FPE.From.GameWindow \- abstract GameWindow class  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBGameWindow\fP (string _title, uint _windowWidth, uint _windowHeight, uint _pixelWidth, uint _pixelHeight)"
+.br
+.ti -1c
+.RI "abstract void \fBOnInit\fP ()"
+.br
+.RI "Abstract Method that is called on Window Initialization\&. "
+.ti -1c
+.RI "abstract void \fBOnUpdate\fP ()"
+.br
+.RI "Abstract Method that is called when the Window is Updated\&. "
+.ti -1c
+.RI "abstract void \fBOnClose\fP ()"
+.br
+.RI "Abstract Method that is called when the Window is Closed\&. "
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override void \fBDispose\fP (bool disposing)"
+.br
+.ti -1c
+.RI "override void \fBOnPaint\fP (PaintEventArgs e)"
+.br
+.ti -1c
+.RI "override void \fBOnClosing\fP (CancelEventArgs e)"
+.br
+.ti -1c
+.RI "override void \fBOnKeyDown\fP (KeyEventArgs e)"
+.br
+.ti -1c
+.RI "override void \fBOnKeyUp\fP (KeyEventArgs e)"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBRenderer\fP \fBrenderer\fP"
+.br
+.ti -1c
+.RI "\fBInputSystem\fP \fBinput\fP"
+.br
+.ti -1c
+.RI "\fBSceneManager\fP \fBsceneManager\fP"
+.br
+.ti -1c
+.RI "float \fBdeltaTime\fP"
+.br
+.RI "Times used to process last Frame\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+abstract GameWindow class 
+
+This class is the center of the FPE\&. When inherited it gives access to Rendering, Input, and other systems\&. The class that inherits GameWindow must also be a MS Form\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "abstract void FormsPixelEngine\&.FPE\&.From\&.GameWindow\&.OnClose ()\fC [pure virtual]\fP"
+
+.PP
+Abstract Method that is called when the Window is Closed\&. 
+.PP
+\fBSee also\fP
+.RS 4
+OnInit(), OnUpdate() 
+.RE
+.PP
+
+.SS "abstract void FormsPixelEngine\&.FPE\&.From\&.GameWindow\&.OnInit ()\fC [pure virtual]\fP"
+
+.PP
+Abstract Method that is called on Window Initialization\&. 
+.PP
+\fBSee also\fP
+.RS 4
+OnUpdate(), OnClose() 
+.RE
+.PP
+
+.SS "abstract void FormsPixelEngine\&.FPE\&.From\&.GameWindow\&.OnUpdate ()\fC [pure virtual]\fP"
+
+.PP
+Abstract Method that is called when the Window is Updated\&. 
+.PP
+\fBSee also\fP
+.RS 4
+OnInit(), OnClose() 
+.RE
+.PP
+
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBInputSystem\fP FormsPixelEngine\&.FPE\&.From\&.GameWindow\&.input\fC [protected]\fP"
+Instance of the InputSystem class for use in getting Input for the current window 
+.PP
+\fBSee also\fP
+.RS 4
+InputSystem 
+.RE
+.PP
+
+.SS "\fBRenderer\fP FormsPixelEngine\&.FPE\&.From\&.GameWindow\&.renderer\fC [protected]\fP"
+Instance of the Render class for use in Rendering to the current Window 
+.PP
+\fBSee also\fP
+.RS 4
+Renderer 
+.RE
+.PP
+
+.SS "\fBSceneManager\fP FormsPixelEngine\&.FPE\&.From\&.GameWindow\&.sceneManager\fC [protected]\fP"
+Instance of the SceneManager class for use in managing scenes 
+.PP
+\fBSee also\fP
+.RS 4
+SceneManager 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for FromsPixelEngin from the source code\&.

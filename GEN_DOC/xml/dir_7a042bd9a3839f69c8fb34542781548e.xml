@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_7a042bd9a3839f69c8fb34542781548e" kind="dir">
+    <compoundname>Scene</compoundname>
+    <innerfile refid="_scene_8cs">Scene.cs</innerfile>
+    <innerfile refid="_scene_manager_8cs">SceneManager.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Scene/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_72b77546f2af977d0245559a62156922" kind="dir">
+    <compoundname>FPE/Rendering</compoundname>
+    <innerdir refid="dir_1ae536b7b64d3c3fb576c17135ab2b5a">FPE/Rendering/Sprites</innerdir>
+    <innerdir refid="dir_0a24542a3bad1640f2009cd9ee7ec2ff">FPE/Rendering/Text</innerdir>
+    <innerfile refid="_camera_8cs">Camera.cs</innerfile>
+    <innerfile refid="_renderer_8cs">Renderer.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="FPE/Rendering/"/>
+  </compounddef>
+</doxygen>

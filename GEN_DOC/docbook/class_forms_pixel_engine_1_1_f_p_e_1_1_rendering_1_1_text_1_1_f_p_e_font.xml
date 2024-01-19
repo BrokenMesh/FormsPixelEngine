@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_text_1_1_f_p_e_font" xml:lang="en-US">
+<title>FormsPixelEngine.FPE.Rendering.Text.FPEFont Class Reference</title>
+<indexterm><primary>FormsPixelEngine.FPE.Rendering.Text.FPEFont</primary></indexterm>
+<para>
+
+<para>Represents a font and is used for text rendering. </para>
+ 
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_text_1_1_f_p_e_font_1adf5ef401348d470dad0253dea715aaef">FPEFont</link> (string _fontpath, string _texturepath)</para>
+
+<para>Constructor of FPEFont. </para>
+</listitem>
+            <listitem><para><link linkend="_struct_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_text_1_1_char_data">CharData</link> <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_text_1_1_f_p_e_font_1a2a0b1c88471a30212b1f8abef2ec4762">GetChar</link> (char _c)</para>
+
+<para>Returns the information of a character as a CharData struct. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_text_1_1_f_p_e_font_1adb5d9e9759ca8d6e3a53cbf0e37ffa2e"/>int <emphasis role="strong">VerticalSpacing</emphasis> = 10</para>
+
+<para>Defines the space between lines of Text. </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_text_1_1_f_p_e_font_1a9fe7f51cacd8e6e5f35aae10266e3b40"/>int <emphasis role="strong">Kerning</emphasis> = 0</para>
+
+<para>Defines the space between text characters. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Represents a font and is used for text rendering. </para>
+
+
+
+<para>This class loads a font file and is used to render text. </para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_text_1_1_f_p_e_font_1adf5ef401348d470dad0253dea715aaef"/><section>
+    <title>FPEFont()</title>
+<indexterm><primary>FPEFont</primary><secondary>FormsPixelEngine.FPE.Rendering.Text.FPEFont</secondary></indexterm>
+<indexterm><primary>FormsPixelEngine.FPE.Rendering.Text.FPEFont</primary><secondary>FPEFont</secondary></indexterm>
+<para><computeroutput>FormsPixelEngine.FPE.Rendering.Text.FPEFont.FPEFont (string _fontpath, string _texturepath)</computeroutput></para><para>
+
+<para>Constructor of FPEFont. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>_fontpath</entry><entry>
+<para>The filepath of the .fpeFont file. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>_texturepath</entry><entry>
+<para>The filepath of the font texture file. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_text_1_1_f_p_e_font_1a2a0b1c88471a30212b1f8abef2ec4762"/><section>
+    <title>GetChar()</title>
+<indexterm><primary>GetChar</primary><secondary>FormsPixelEngine.FPE.Rendering.Text.FPEFont</secondary></indexterm>
+<indexterm><primary>FormsPixelEngine.FPE.Rendering.Text.FPEFont</primary><secondary>GetChar</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_text_1_1_char_data">CharData</link> FormsPixelEngine.FPE.Rendering.Text.FPEFont.GetChar (char _c)</computeroutput></para><para>
+
+<para>Returns the information of a character as a CharData struct. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>_c</entry><entry>
+<para>The demanded character </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>Returns the character information as a CharData struct. </para>
+</formalpara>
+<formalpara><title>See also</title>
+
+<para>CharData </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Rendering/Text/FPEFont.cs</section>
+</section>

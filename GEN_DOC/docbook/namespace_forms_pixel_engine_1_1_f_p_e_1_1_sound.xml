@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_forms_pixel_engine_1_1_f_p_e_1_1_sound" xml:lang="en-US">
+<title>FormsPixelEngine.FPE.Sound Namespace Reference</title>
+<indexterm><primary>FormsPixelEngine.FPE.Sound</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_sound_1_1_audio_clip">AudioClip</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

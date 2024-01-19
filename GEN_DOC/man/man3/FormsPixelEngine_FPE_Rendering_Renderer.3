@@ -1,0 +1,197 @@
+.TH "FormsPixelEngine.FPE.Rendering.Renderer" 3 "Tue Feb 14 2023" "Version 0.1.0" "FromsPixelEngin" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FormsPixelEngine.FPE.Rendering.Renderer \- Renders to the Window\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBRenderer\fP (uint _pixelWidth, uint _pixelHeight)"
+.br
+.ti -1c
+.RI "void \fBDrawSprite\fP (int _x, int _y, \fBSprite\fP _sprite)"
+.br
+.RI "Draws a sprite onto the screen\&. "
+.ti -1c
+.RI "void \fBDrawRect\fP (int _x, int _y, int _w, int _h)"
+.br
+.RI "Draws a rectangle onto the screen using the current draw color\&. "
+.ti -1c
+.RI "void \fBDrawText\fP (int _x, int _y, string _text, \fBFPEFont\fP _font)"
+.br
+.RI "Draws a text onto the screen\&. "
+.ti -1c
+.RI "void \fBSetDrawColor\fP (Vector3 _drawColor)"
+.br
+.RI "Sets the draw color\&. "
+.ti -1c
+.RI "void \fBPushCamera\fP (\fBCamera\fP _camera)"
+.br
+.RI "Sets the camera to be used for rendering\&. "
+.ti -1c
+.RI "void \fBPopCamera\fP ()"
+.br
+.RI "Removes camera and makes future draw call relative to the screen\&. "
+.ti -1c
+.RI "void \fBClearScreen\fP (Vector3 _clearColor)"
+.br
+.RI "Clears the screen with a set color\&. "
+.ti -1c
+.RI "uint?[] \fBGetPixelBuffer\fP ()"
+.br
+.RI "Gets the buffer of pixels\&. "
+.ti -1c
+.RI "IntPtr \fBGetPixelBufferPtr\fP ()"
+.br
+.ti -1c
+.RI "void \fBDestroy\fP ()"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "uint \fBpixelWidth\fP\fC [get]\fP"
+.br
+.RI "Width of the screen in pixels\&. "
+.ti -1c
+.RI "uint \fBpixelHeight\fP\fC [get]\fP"
+.br
+.RI "Height of the screen in pixels\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Renders to the Window\&. 
+
+This class allows rendering to the window\&. It provides several Methods for Drawing Images, Shapes and Text\&. 
+.br
+ 
+.SH "Member Function Documentation"
+.PP 
+.SS "void FormsPixelEngine\&.FPE\&.Rendering\&.Renderer\&.ClearScreen (Vector3 _clearColor)"
+
+.PP
+Clears the screen with a set color\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fI_clearColor\fP The color (a vector 3 where (x,y,z) represents (r,g,b) in the color range of 0 - 255) 
+.RE
+.PP
+
+.SS "void FormsPixelEngine\&.FPE\&.Rendering\&.Renderer\&.DrawRect (int _x, int _y, int _w, int _h)"
+
+.PP
+Draws a rectangle onto the screen using the current draw color\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fI_x\fP X position of the rectangle 
+.br
+\fI_y\fP Y position of the rectangle 
+.br
+\fI_w\fP Width of the rectangle 
+.br
+\fI_h\fP Height of the rectangle 
+.RE
+.PP
+\fBSee also\fP
+.RS 4
+SetDrawColor 
+.RE
+.PP
+
+.SS "void FormsPixelEngine\&.FPE\&.Rendering\&.Renderer\&.DrawSprite (int _x, int _y, \fBSprite\fP _sprite)"
+
+.PP
+Draws a sprite onto the screen\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fI_x\fP X position of sprite 
+.br
+\fI_y\fP Y position of sprite 
+.br
+\fI_sprite\fP sprite to be rendered 
+.RE
+.PP
+\fBSee also\fP
+.RS 4
+Sprite, TextureSprite 
+.RE
+.PP
+
+.SS "void FormsPixelEngine\&.FPE\&.Rendering\&.Renderer\&.DrawText (int _x, int _y, string _text, \fBFPEFont\fP _font)"
+
+.PP
+Draws a text onto the screen\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fI_x\fP X position of the text 
+.br
+\fI_y\fP Y position of the text 
+.br
+\fI_text\fP the actual text to be rendered\&. 
+.br
+\fI_font\fP the font to be used for rendering\&. 
+.RE
+.PP
+\fBSee also\fP
+.RS 4
+FPEFont 
+.RE
+.PP
+
+.SS "void FormsPixelEngine\&.FPE\&.Rendering\&.Renderer\&.PopCamera ()"
+
+.PP
+Removes camera and makes future draw call relative to the screen\&. 
+.PP
+\fBSee also\fP
+.RS 4
+Camera, PushCamera 
+.RE
+.PP
+
+.SS "void FormsPixelEngine\&.FPE\&.Rendering\&.Renderer\&.PushCamera (\fBCamera\fP _camera)"
+
+.PP
+Sets the camera to be used for rendering\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fI_camera\fP the camera 
+.RE
+.PP
+\fBSee also\fP
+.RS 4
+Camera, PopCamera 
+.RE
+.PP
+
+.SS "void FormsPixelEngine\&.FPE\&.Rendering\&.Renderer\&.SetDrawColor (Vector3 _drawColor)"
+
+.PP
+Sets the draw color\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fI_drawColor\fP The color (a vector 3 where (x,y,z) represents (r,g,b) in the color range of 0 - 255) 
+.RE
+.PP
+\fBSee also\fP
+.RS 4
+DrawRect 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for FromsPixelEngin from the source code\&.

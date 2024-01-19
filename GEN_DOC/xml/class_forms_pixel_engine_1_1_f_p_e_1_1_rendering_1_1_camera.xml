@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_camera" kind="class" language="C#" prot="public">
+    <compoundname>FormsPixelEngine::FPE::Rendering::Camera</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_camera_1a53b4c9baa8f9ecde83380a079f91c136" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FormsPixelEngine.FPE.Rendering.Camera.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Camera.x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Camera.cs" line="16" column="22" bodyfile="Rendering/Camera.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_camera_1a07ca19fe163a3d6b70508092a0ddb085" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FormsPixelEngine.FPE.Rendering.Camera.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Camera.y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Camera.cs" line="17" column="22" bodyfile="Rendering/Camera.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_camera_1a1e43bc4b299c996d671a988fdc7d3cfb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FormsPixelEngine.FPE.Rendering.Camera.Camera</definition>
+        <argsstring>(float _x, float _y)</argsstring>
+        <name>Camera</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Camera.Camera</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>_x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_y</declname>
+        </param>
+        <briefdescription>
+<para>Constructor of Camera. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Camera x position. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Camera y position. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>Renderer.PushCamera </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Camera.cs" line="25" column="16" bodyfile="Rendering/Camera.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents a camera. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This class defines a camera and is used by the renderer. </para>
+    </detaileddescription>
+    <location file="Rendering/Camera.cs" line="14" column="11" bodyfile="Rendering/Camera.cs" bodystart="15" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_camera_1a1e43bc4b299c996d671a988fdc7d3cfb" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Camera</scope><name>Camera</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_camera_1a53b4c9baa8f9ecde83380a079f91c136" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Camera</scope><name>x</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_camera_1a07ca19fe163a3d6b70508092a0ddb085" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Camera</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

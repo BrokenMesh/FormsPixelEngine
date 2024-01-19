@@ -1,0 +1,132 @@
+\doxysection{Forms\+Pixel\+Engine.\+FPE.\+From.\+Game\+Window Class Reference}
+\label{class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window}\index{FormsPixelEngine.FPE.From.GameWindow@{FormsPixelEngine.FPE.From.GameWindow}}
+
+
+abstract Game\+Window class  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_ae4313aac69c53e74a64eae43187988c3}} 
+{\bfseries Game\+Window} (string \+\_\+title, uint \+\_\+window\+Width, uint \+\_\+window\+Height, uint \+\_\+pixel\+Width, uint \+\_\+pixel\+Height)
+\item 
+abstract void \textbf{ On\+Init} ()
+\begin{DoxyCompactList}\small\item\em Abstract Method that is called on Window Initialization. \end{DoxyCompactList}\item 
+abstract void \textbf{ On\+Update} ()
+\begin{DoxyCompactList}\small\item\em Abstract Method that is called when the Window is Updated. \end{DoxyCompactList}\item 
+abstract void \textbf{ On\+Close} ()
+\begin{DoxyCompactList}\small\item\em Abstract Method that is called when the Window is Closed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_ac60818141ecf33c48a91fa9c76013dc6}} 
+override void {\bfseries Dispose} (bool disposing)
+\item 
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_a5f673b2cea664b26cfe50565e69cdb60}} 
+override void {\bfseries On\+Paint} (Paint\+Event\+Args e)
+\item 
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_a3512cdf766bd547e1c0e1457365a45e8}} 
+override void {\bfseries On\+Closing} (Cancel\+Event\+Args e)
+\item 
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_ac9cd09c20be3dd72e47faef4a220304d}} 
+override void {\bfseries On\+Key\+Down} (Key\+Event\+Args e)
+\item 
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_aa53786230e5b13ad1678a2a0e1fefb61}} 
+override void {\bfseries On\+Key\+Up} (Key\+Event\+Args e)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Renderer} \textbf{ renderer}
+\item 
+\textbf{ Input\+System} \textbf{ input}
+\item 
+\textbf{ Scene\+Manager} \textbf{ scene\+Manager}
+\item 
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_a0bf4095de202436302be5b94592e88d3}} 
+float {\bfseries delta\+Time}
+\begin{DoxyCompactList}\small\item\em Times used to process last Frame. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+abstract Game\+Window class 
+
+This class is the center of the FPE. When inherited it gives access to Rendering, Input, and other systems. The class that inherits Game\+Window must also be a MS Form. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_ab85a69ec38b0ed8ae058faf2d80fe2f4}} 
+\index{FormsPixelEngine.FPE.From.GameWindow@{FormsPixelEngine.FPE.From.GameWindow}!OnClose@{OnClose}}
+\index{OnClose@{OnClose}!FormsPixelEngine.FPE.From.GameWindow@{FormsPixelEngine.FPE.From.GameWindow}}
+\doxysubsubsection{OnClose()}
+{\footnotesize\ttfamily abstract void Forms\+Pixel\+Engine.\+FPE.\+From.\+Game\+Window.\+On\+Close (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Abstract Method that is called when the Window is Closed. 
+
+\begin{DoxySeeAlso}{See also}
+On\+Init(), On\+Update() 
+\end{DoxySeeAlso}
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_af81cabdbe384ec396e7e4e7c03817fe2}} 
+\index{FormsPixelEngine.FPE.From.GameWindow@{FormsPixelEngine.FPE.From.GameWindow}!OnInit@{OnInit}}
+\index{OnInit@{OnInit}!FormsPixelEngine.FPE.From.GameWindow@{FormsPixelEngine.FPE.From.GameWindow}}
+\doxysubsubsection{OnInit()}
+{\footnotesize\ttfamily abstract void Forms\+Pixel\+Engine.\+FPE.\+From.\+Game\+Window.\+On\+Init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Abstract Method that is called on Window Initialization. 
+
+\begin{DoxySeeAlso}{See also}
+On\+Update(), On\+Close() 
+\end{DoxySeeAlso}
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_a36c278f3c2366219106684a3250ea0f3}} 
+\index{FormsPixelEngine.FPE.From.GameWindow@{FormsPixelEngine.FPE.From.GameWindow}!OnUpdate@{OnUpdate}}
+\index{OnUpdate@{OnUpdate}!FormsPixelEngine.FPE.From.GameWindow@{FormsPixelEngine.FPE.From.GameWindow}}
+\doxysubsubsection{OnUpdate()}
+{\footnotesize\ttfamily abstract void Forms\+Pixel\+Engine.\+FPE.\+From.\+Game\+Window.\+On\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Abstract Method that is called when the Window is Updated. 
+
+\begin{DoxySeeAlso}{See also}
+On\+Init(), On\+Close() 
+\end{DoxySeeAlso}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_afbce8b0abdd654dd326b5c8e3067bad1}} 
+\index{FormsPixelEngine.FPE.From.GameWindow@{FormsPixelEngine.FPE.From.GameWindow}!input@{input}}
+\index{input@{input}!FormsPixelEngine.FPE.From.GameWindow@{FormsPixelEngine.FPE.From.GameWindow}}
+\doxysubsubsection{input}
+{\footnotesize\ttfamily \textbf{ Input\+System} Forms\+Pixel\+Engine.\+FPE.\+From.\+Game\+Window.\+input\hspace{0.3cm}{\ttfamily [protected]}}
+
+Instance of the Input\+System class for use in getting Input for the current window \begin{DoxySeeAlso}{See also}
+Input\+System 
+\end{DoxySeeAlso}
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_a6b6c8f590d662cdb4e74b58ebba175b2}} 
+\index{FormsPixelEngine.FPE.From.GameWindow@{FormsPixelEngine.FPE.From.GameWindow}!renderer@{renderer}}
+\index{renderer@{renderer}!FormsPixelEngine.FPE.From.GameWindow@{FormsPixelEngine.FPE.From.GameWindow}}
+\doxysubsubsection{renderer}
+{\footnotesize\ttfamily \textbf{ Renderer} Forms\+Pixel\+Engine.\+FPE.\+From.\+Game\+Window.\+renderer\hspace{0.3cm}{\ttfamily [protected]}}
+
+Instance of the Render class for use in Rendering to the current Window \begin{DoxySeeAlso}{See also}
+\doxyref{Renderer}{p.}{class_renderer} 
+\end{DoxySeeAlso}
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_from_1_1_game_window_a5b380cd1bd94ddb5fc2c587186168915}} 
+\index{FormsPixelEngine.FPE.From.GameWindow@{FormsPixelEngine.FPE.From.GameWindow}!sceneManager@{sceneManager}}
+\index{sceneManager@{sceneManager}!FormsPixelEngine.FPE.From.GameWindow@{FormsPixelEngine.FPE.From.GameWindow}}
+\doxysubsubsection{sceneManager}
+{\footnotesize\ttfamily \textbf{ Scene\+Manager} Forms\+Pixel\+Engine.\+FPE.\+From.\+Game\+Window.\+scene\+Manager\hspace{0.3cm}{\ttfamily [protected]}}
+
+Instance of the Scene\+Manager class for use in managing scenes \begin{DoxySeeAlso}{See also}
+Scene\+Manager 
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+From/Game\+Window.\+cs\item 
+From/Game\+Window.\+Designer.\+cs\end{DoxyCompactItemize}

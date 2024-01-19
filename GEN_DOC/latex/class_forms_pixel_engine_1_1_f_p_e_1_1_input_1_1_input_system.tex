@@ -1,0 +1,87 @@
+\doxysection{Forms\+Pixel\+Engine.\+FPE.\+Input.\+Input\+System Class Reference}
+\label{class_forms_pixel_engine_1_1_f_p_e_1_1_input_1_1_input_system}\index{FormsPixelEngine.FPE.Input.InputSystem@{FormsPixelEngine.FPE.Input.InputSystem}}
+
+
+Class for handling user Input.  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_input_1_1_input_system_a9d9f5bfe3d4dc10445d799050f282aaf}} 
+void {\bfseries Update} (uint key\+Value, bool \+\_\+state)
+\item 
+bool \textbf{ Key\+Pressed} (\textbf{ Key\+Code} key)
+\begin{DoxyCompactList}\small\item\em Returns true if the given key was pressed. \end{DoxyCompactList}\item 
+void \textbf{ Subscribe\+Key} (\textbf{ Key\+Code} \+\_\+key)
+\begin{DoxyCompactList}\small\item\em Adds the key to the Subscriptions and checks its state every Frame. \end{DoxyCompactList}\item 
+void \textbf{ Unsubscribe\+Key} (\textbf{ Key\+Code} \+\_\+key)
+\begin{DoxyCompactList}\small\item\em Removes the key to the Subscriptions and stops checking its state every Frame. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class for handling user Input. 
+
+This class allows the subscribing to keys. if a subscribed key is being pressed the Key\+Pressed method would return true. ~\newline
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_input_1_1_input_system_a97b1972bd8e2b0a78f9036061d4eccfe}} 
+\index{FormsPixelEngine.FPE.Input.InputSystem@{FormsPixelEngine.FPE.Input.InputSystem}!KeyPressed@{KeyPressed}}
+\index{KeyPressed@{KeyPressed}!FormsPixelEngine.FPE.Input.InputSystem@{FormsPixelEngine.FPE.Input.InputSystem}}
+\doxysubsubsection{KeyPressed()}
+{\footnotesize\ttfamily bool Forms\+Pixel\+Engine.\+FPE.\+Input.\+Input\+System.\+Key\+Pressed (\begin{DoxyParamCaption}\item[{\textbf{ Key\+Code}}]{key }\end{DoxyParamCaption})}
+
+
+
+Returns true if the given key was pressed. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Key} & The Key that will be checked \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+Key\+Code.\+cs 
+\end{DoxySeeAlso}
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_input_1_1_input_system_a5dea25c586200c982506634004d213c9}} 
+\index{FormsPixelEngine.FPE.Input.InputSystem@{FormsPixelEngine.FPE.Input.InputSystem}!SubscribeKey@{SubscribeKey}}
+\index{SubscribeKey@{SubscribeKey}!FormsPixelEngine.FPE.Input.InputSystem@{FormsPixelEngine.FPE.Input.InputSystem}}
+\doxysubsubsection{SubscribeKey()}
+{\footnotesize\ttfamily void Forms\+Pixel\+Engine.\+FPE.\+Input.\+Input\+System.\+Subscribe\+Key (\begin{DoxyParamCaption}\item[{\textbf{ Key\+Code}}]{\+\_\+key }\end{DoxyParamCaption})}
+
+
+
+Adds the key to the Subscriptions and checks its state every Frame. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Key} & The Key that will be added \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+Key\+Code.\+cs 
+\end{DoxySeeAlso}
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_input_1_1_input_system_a162f4e4c9d02983eb29c6f24898b8616}} 
+\index{FormsPixelEngine.FPE.Input.InputSystem@{FormsPixelEngine.FPE.Input.InputSystem}!UnsubscribeKey@{UnsubscribeKey}}
+\index{UnsubscribeKey@{UnsubscribeKey}!FormsPixelEngine.FPE.Input.InputSystem@{FormsPixelEngine.FPE.Input.InputSystem}}
+\doxysubsubsection{UnsubscribeKey()}
+{\footnotesize\ttfamily void Forms\+Pixel\+Engine.\+FPE.\+Input.\+Input\+System.\+Unsubscribe\+Key (\begin{DoxyParamCaption}\item[{\textbf{ Key\+Code}}]{\+\_\+key }\end{DoxyParamCaption})}
+
+
+
+Removes the key to the Subscriptions and stops checking its state every Frame. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Key} & The Key that will be removed \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+Key\+Code.\+cs 
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Input/Input\+System.\+cs\end{DoxyCompactItemize}

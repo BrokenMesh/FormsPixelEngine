@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_sound_1_1_audio_clip" xml:lang="en-US">
+<title>FormsPixelEngine.FPE.Sound.AudioClip Class Reference</title>
+<indexterm><primary>FormsPixelEngine.FPE.Sound.AudioClip</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_sound_1_1_audio_clip_1ae56a3fe4be93ddbba7b1d6a16852ee4e"/><emphasis role="strong">AudioClip</emphasis> (string _filename)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_sound_1_1_audio_clip_1a22944bbf154a572a7483ec9057fb1449"/>void <emphasis role="strong">Play</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_sound_1_1_audio_clip_1abe8f6a803c7e5e1fddf6f98c0f460cf4"/>void <emphasis role="strong">PlayLoop</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_sound_1_1_audio_clip_1a6a5c9f660de409a29c55c91b8a5e21ea"/>void <emphasis role="strong">Stop</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+Sound/AudioClip.cs</section>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_forms_pixel_engine_1_1_f_p_e_1_1_rendering" xml:lang="en-US">
+<title>FormsPixelEngine.FPE.Rendering Namespace Reference</title>
+<indexterm><primary>FormsPixelEngine.FPE.Rendering</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_camera">Camera</link></para>
+
+<para>Represents a camera. </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer">Renderer</link></para>
+
+<para>Renders to the Window. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,193 @@
+\doxysection{Forms\+Pixel\+Engine.\+FPE.\+Rendering.\+Renderer Class Reference}
+\label{class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer}\index{FormsPixelEngine.FPE.Rendering.Renderer@{FormsPixelEngine.FPE.Rendering.Renderer}}
+
+
+Renders to the Window.  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_ac1940c619d440b7a08df9a6ea6c8df70}} 
+{\bfseries Renderer} (uint \+\_\+pixel\+Width, uint \+\_\+pixel\+Height)
+\item 
+void \textbf{ Draw\+Sprite} (int \+\_\+x, int \+\_\+y, \textbf{ Sprite} \+\_\+sprite)
+\begin{DoxyCompactList}\small\item\em Draws a sprite onto the screen. \end{DoxyCompactList}\item 
+void \textbf{ Draw\+Rect} (int \+\_\+x, int \+\_\+y, int \+\_\+w, int \+\_\+h)
+\begin{DoxyCompactList}\small\item\em Draws a rectangle onto the screen using the current draw color. \end{DoxyCompactList}\item 
+void \textbf{ Draw\+Text} (int \+\_\+x, int \+\_\+y, string \+\_\+text, \textbf{ FPEFont} \+\_\+font)
+\begin{DoxyCompactList}\small\item\em Draws a text onto the screen. \end{DoxyCompactList}\item 
+void \textbf{ Set\+Draw\+Color} (Vector3 \+\_\+draw\+Color)
+\begin{DoxyCompactList}\small\item\em Sets the draw color. \end{DoxyCompactList}\item 
+void \textbf{ Push\+Camera} (\textbf{ Camera} \+\_\+camera)
+\begin{DoxyCompactList}\small\item\em Sets the camera to be used for rendering. \end{DoxyCompactList}\item 
+void \textbf{ Pop\+Camera} ()
+\begin{DoxyCompactList}\small\item\em Removes camera and makes future draw call relative to the screen. \end{DoxyCompactList}\item 
+void \textbf{ Clear\+Screen} (Vector3 \+\_\+clear\+Color)
+\begin{DoxyCompactList}\small\item\em Clears the screen with a set color. \end{DoxyCompactList}\item 
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_a7e38b6fa7acf8191fd8c60aa4f0dd6b8}} 
+uint?[$\,$] {\bfseries Get\+Pixel\+Buffer} ()
+\begin{DoxyCompactList}\small\item\em Gets the buffer of pixels. \end{DoxyCompactList}\item 
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_a40f8631dd59ee9483d7e3f495913c689}} 
+Int\+Ptr {\bfseries Get\+Pixel\+Buffer\+Ptr} ()
+\item 
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_a6c316ff51ebd86d0b4d3b41c9f6a2674}} 
+void {\bfseries Destroy} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_aaa9e7df63960d146d7ce3686accdaa0a}} 
+uint {\bfseries pixel\+Width}\hspace{0.3cm}{\ttfamily  [get]}
+\begin{DoxyCompactList}\small\item\em Width of the screen in pixels. \end{DoxyCompactList}\item 
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_a7ccca8ddffb986612fe919cb0a0bd56d}} 
+uint {\bfseries pixel\+Height}\hspace{0.3cm}{\ttfamily  [get]}
+\begin{DoxyCompactList}\small\item\em Height of the screen in pixels. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Renders to the Window. 
+
+This class allows rendering to the window. It provides several Methods for Drawing Images, Shapes and Text. ~\newline
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_ab2db670e2f3e112563d908a11ef22226}} 
+\index{FormsPixelEngine.FPE.Rendering.Renderer@{FormsPixelEngine.FPE.Rendering.Renderer}!ClearScreen@{ClearScreen}}
+\index{ClearScreen@{ClearScreen}!FormsPixelEngine.FPE.Rendering.Renderer@{FormsPixelEngine.FPE.Rendering.Renderer}}
+\doxysubsubsection{ClearScreen()}
+{\footnotesize\ttfamily void Forms\+Pixel\+Engine.\+FPE.\+Rendering.\+Renderer.\+Clear\+Screen (\begin{DoxyParamCaption}\item[{Vector3}]{\+\_\+clear\+Color }\end{DoxyParamCaption})}
+
+
+
+Clears the screen with a set color. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+clear\+Color} & The color (a vector 3 where (x,y,z) represents (r,g,b) in the color range of 0 -\/ 255) \\
+\hline
+\end{DoxyParams}
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_abb1832bbd0ca725e897ae9159441b94a}} 
+\index{FormsPixelEngine.FPE.Rendering.Renderer@{FormsPixelEngine.FPE.Rendering.Renderer}!DrawRect@{DrawRect}}
+\index{DrawRect@{DrawRect}!FormsPixelEngine.FPE.Rendering.Renderer@{FormsPixelEngine.FPE.Rendering.Renderer}}
+\doxysubsubsection{DrawRect()}
+{\footnotesize\ttfamily void Forms\+Pixel\+Engine.\+FPE.\+Rendering.\+Renderer.\+Draw\+Rect (\begin{DoxyParamCaption}\item[{int}]{\+\_\+x,  }\item[{int}]{\+\_\+y,  }\item[{int}]{\+\_\+w,  }\item[{int}]{\+\_\+h }\end{DoxyParamCaption})}
+
+
+
+Draws a rectangle onto the screen using the current draw color. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+x} & X position of the rectangle \\
+\hline
+{\em \+\_\+y} & Y position of the rectangle \\
+\hline
+{\em \+\_\+w} & Width of the rectangle \\
+\hline
+{\em \+\_\+h} & Height of the rectangle \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+Set\+Draw\+Color 
+\end{DoxySeeAlso}
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_adcc43286ac7ffdf073e22a129b4daeba}} 
+\index{FormsPixelEngine.FPE.Rendering.Renderer@{FormsPixelEngine.FPE.Rendering.Renderer}!DrawSprite@{DrawSprite}}
+\index{DrawSprite@{DrawSprite}!FormsPixelEngine.FPE.Rendering.Renderer@{FormsPixelEngine.FPE.Rendering.Renderer}}
+\doxysubsubsection{DrawSprite()}
+{\footnotesize\ttfamily void Forms\+Pixel\+Engine.\+FPE.\+Rendering.\+Renderer.\+Draw\+Sprite (\begin{DoxyParamCaption}\item[{int}]{\+\_\+x,  }\item[{int}]{\+\_\+y,  }\item[{\textbf{ Sprite}}]{\+\_\+sprite }\end{DoxyParamCaption})}
+
+
+
+Draws a sprite onto the screen. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+x} & X position of sprite \\
+\hline
+{\em \+\_\+y} & Y position of sprite \\
+\hline
+{\em \+\_\+sprite} & sprite to be rendered \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+Sprite, Texture\+Sprite 
+\end{DoxySeeAlso}
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_a59581adf615a963f7b54909bc019ee9e}} 
+\index{FormsPixelEngine.FPE.Rendering.Renderer@{FormsPixelEngine.FPE.Rendering.Renderer}!DrawText@{DrawText}}
+\index{DrawText@{DrawText}!FormsPixelEngine.FPE.Rendering.Renderer@{FormsPixelEngine.FPE.Rendering.Renderer}}
+\doxysubsubsection{DrawText()}
+{\footnotesize\ttfamily void Forms\+Pixel\+Engine.\+FPE.\+Rendering.\+Renderer.\+Draw\+Text (\begin{DoxyParamCaption}\item[{int}]{\+\_\+x,  }\item[{int}]{\+\_\+y,  }\item[{string}]{\+\_\+text,  }\item[{\textbf{ FPEFont}}]{\+\_\+font }\end{DoxyParamCaption})}
+
+
+
+Draws a text onto the screen. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+x} & X position of the text \\
+\hline
+{\em \+\_\+y} & Y position of the text \\
+\hline
+{\em \+\_\+text} & the actual text to be rendered. \\
+\hline
+{\em \+\_\+font} & the font to be used for rendering. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+FPEFont 
+\end{DoxySeeAlso}
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_a04092ddbd9c2e19a6512b62b586fe7ad}} 
+\index{FormsPixelEngine.FPE.Rendering.Renderer@{FormsPixelEngine.FPE.Rendering.Renderer}!PopCamera@{PopCamera}}
+\index{PopCamera@{PopCamera}!FormsPixelEngine.FPE.Rendering.Renderer@{FormsPixelEngine.FPE.Rendering.Renderer}}
+\doxysubsubsection{PopCamera()}
+{\footnotesize\ttfamily void Forms\+Pixel\+Engine.\+FPE.\+Rendering.\+Renderer.\+Pop\+Camera (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Removes camera and makes future draw call relative to the screen. 
+
+\begin{DoxySeeAlso}{See also}
+Camera, Push\+Camera 
+\end{DoxySeeAlso}
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_ae6958022fc2aa2d1953e674d4d9b360d}} 
+\index{FormsPixelEngine.FPE.Rendering.Renderer@{FormsPixelEngine.FPE.Rendering.Renderer}!PushCamera@{PushCamera}}
+\index{PushCamera@{PushCamera}!FormsPixelEngine.FPE.Rendering.Renderer@{FormsPixelEngine.FPE.Rendering.Renderer}}
+\doxysubsubsection{PushCamera()}
+{\footnotesize\ttfamily void Forms\+Pixel\+Engine.\+FPE.\+Rendering.\+Renderer.\+Push\+Camera (\begin{DoxyParamCaption}\item[{\textbf{ Camera}}]{\+\_\+camera }\end{DoxyParamCaption})}
+
+
+
+Sets the camera to be used for rendering. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+camera} & the camera \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+Camera, Pop\+Camera 
+\end{DoxySeeAlso}
+\mbox{\label{class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_renderer_aac5a7c7089fbce398b462fe3db02d4bb}} 
+\index{FormsPixelEngine.FPE.Rendering.Renderer@{FormsPixelEngine.FPE.Rendering.Renderer}!SetDrawColor@{SetDrawColor}}
+\index{SetDrawColor@{SetDrawColor}!FormsPixelEngine.FPE.Rendering.Renderer@{FormsPixelEngine.FPE.Rendering.Renderer}}
+\doxysubsubsection{SetDrawColor()}
+{\footnotesize\ttfamily void Forms\+Pixel\+Engine.\+FPE.\+Rendering.\+Renderer.\+Set\+Draw\+Color (\begin{DoxyParamCaption}\item[{Vector3}]{\+\_\+draw\+Color }\end{DoxyParamCaption})}
+
+
+
+Sets the draw color. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+draw\+Color} & The color (a vector 3 where (x,y,z) represents (r,g,b) in the color range of 0 -\/ 255) \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+Draw\+Rect 
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Rendering/Renderer.\+cs\end{DoxyCompactItemize}

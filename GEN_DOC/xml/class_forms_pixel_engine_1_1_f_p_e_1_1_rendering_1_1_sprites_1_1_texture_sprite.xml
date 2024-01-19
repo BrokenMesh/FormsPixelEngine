@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_texture_sprite" kind="class" language="C#" prot="public">
+    <compoundname>FormsPixelEngine::FPE::Rendering::Sprites::TextureSprite</compoundname>
+    <basecompoundref refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_sprite" prot="public" virt="non-virtual">FormsPixelEngine.FPE.Rendering.Sprites.Sprite</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_texture_sprite_1a91b7cbd78237ff25db60c9225e485dde" prot="private" static="no" mutable="no">
+        <type>uint[]</type>
+        <definition>uint [] FormsPixelEngine.FPE.Rendering.Sprites.TextureSprite.pixelData</definition>
+        <argsstring></argsstring>
+        <name>pixelData</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Sprites.TextureSprite.pixelData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Sprites/TextureSprite.cs" line="16" column="22" bodyfile="Rendering/Sprites/TextureSprite.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_texture_sprite_1a05268e0d264555ae148463cc2245d603" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override uint</type>
+        <definition>override uint FormsPixelEngine.FPE.Rendering.Sprites.TextureSprite.Width</definition>
+        <argsstring></argsstring>
+        <name>Width</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Sprites.TextureSprite.Width</qualifiedname>
+        <briefdescription>
+<para>Width of the Sprite. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Sprites/TextureSprite.cs" line="18" column="30" bodyfile="Rendering/Sprites/TextureSprite.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_texture_sprite_1adb34beb254602d6cd3bf618859e5d001" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override uint</type>
+        <definition>override uint FormsPixelEngine.FPE.Rendering.Sprites.TextureSprite.Height</definition>
+        <argsstring></argsstring>
+        <name>Height</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Sprites.TextureSprite.Height</qualifiedname>
+        <briefdescription>
+<para>Height of the Sprite. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Sprites/TextureSprite.cs" line="19" column="30" bodyfile="Rendering/Sprites/TextureSprite.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_texture_sprite_1a132240a5f083ee3cd75649c9a9ae0ee2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FormsPixelEngine.FPE.Rendering.Sprites.TextureSprite.TextureSprite</definition>
+        <argsstring>(string _filePath)</argsstring>
+        <name>TextureSprite</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Sprites.TextureSprite.TextureSprite</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>_filePath</declname>
+        </param>
+        <briefdescription>
+<para>Constructor of TextureSprite. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_filePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The filepath of the texture file. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Sprites/TextureSprite.cs" line="26" column="16" bodyfile="Rendering/Sprites/TextureSprite.cs" bodystart="26" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_texture_sprite_1ae9dc04d5862e7aa4552d1f838cb4827d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FormsPixelEngine.FPE.Rendering.Sprites.TextureSprite.TextureSprite</definition>
+        <argsstring>(string _filePath, uint _segmentSize, uint _xIndex, uint _yIndex)</argsstring>
+        <name>TextureSprite</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Sprites.TextureSprite.TextureSprite</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>_filePath</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>_segmentSize</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>_xIndex</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>_yIndex</declname>
+        </param>
+        <briefdescription>
+<para>Constructor of TextureSprite that loads a spriteheet. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Loads a small segment of an image file (mainly spriteheet). <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_filePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The filepath of the spriteheet file. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_segmentSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The size of a segments of the spriteheet. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_xIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Defines the colum of the segment. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_yIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Defines the row of the segment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Sprites/TextureSprite.cs" line="50" column="16" bodyfile="Rendering/Sprites/TextureSprite.cs" bodystart="50" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_texture_sprite_1a672fea0eb7ae1007fd6c005f042e0e72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override uint[]</type>
+        <definition>override uint[] FormsPixelEngine.FPE.Rendering.Sprites.TextureSprite.GetPixelData</definition>
+        <argsstring>()</argsstring>
+        <name>GetPixelData</name>
+        <qualifiedname>FormsPixelEngine.FPE.Rendering.Sprites.TextureSprite.GetPixelData</qualifiedname>
+        <reimplements refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_sprite_1a5ffd54b2e8d02008eb5ee20cdf263e0f">GetPixelData</reimplements>
+        <briefdescription>
+<para>Returns the image data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Array of unsigned Integers that represent the image pixel data. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Rendering/Sprites/TextureSprite.cs" line="74" column="30" bodyfile="Rendering/Sprites/TextureSprite.cs" bodystart="74" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents a sprite loaded from a texture file. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This class is a simple sprite loaded from a texture file. It holds an array of Pixels, the Width and Height of a Sprite </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FormsPixelEngine.FPE.Rendering.Sprites.TextureSprite</label>
+        <link refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_texture_sprite"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Sprite</label>
+        <link refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_sprite"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FormsPixelEngine.FPE.Rendering.Sprites.TextureSprite</label>
+        <link refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_texture_sprite"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Sprite</label>
+        <link refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_sprite"/>
+      </node>
+    </collaborationgraph>
+    <location file="Rendering/Sprites/TextureSprite.cs" line="14" column="11" bodyfile="Rendering/Sprites/TextureSprite.cs" bodystart="15" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_texture_sprite_1a672fea0eb7ae1007fd6c005f042e0e72" prot="public" virt="virtual"><scope>FormsPixelEngine::FPE::Rendering::Sprites::TextureSprite</scope><name>GetPixelData</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_texture_sprite_1adb34beb254602d6cd3bf618859e5d001" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Sprites::TextureSprite</scope><name>Height</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_texture_sprite_1a91b7cbd78237ff25db60c9225e485dde" prot="private" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Sprites::TextureSprite</scope><name>pixelData</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_texture_sprite_1a132240a5f083ee3cd75649c9a9ae0ee2" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Sprites::TextureSprite</scope><name>TextureSprite</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_texture_sprite_1ae9dc04d5862e7aa4552d1f838cb4827d" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Sprites::TextureSprite</scope><name>TextureSprite</name></member>
+      <member refid="class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_sprites_1_1_texture_sprite_1a05268e0d264555ae148463cc2245d603" prot="public" virt="non-virtual"><scope>FormsPixelEngine::FPE::Rendering::Sprites::TextureSprite</scope><name>Width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

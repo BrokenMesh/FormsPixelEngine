@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_camera" xml:lang="en-US">
+<title>FormsPixelEngine.FPE.Rendering.Camera Class Reference</title>
+<indexterm><primary>FormsPixelEngine.FPE.Rendering.Camera</primary></indexterm>
+<para>
+
+<para>Represents a camera. </para>
+ 
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_camera_1a1e43bc4b299c996d671a988fdc7d3cfb">Camera</link> (float _x, float _y)</para>
+
+<para>Constructor of Camera. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_camera_1a53b4c9baa8f9ecde83380a079f91c136"/>float <emphasis role="strong">x</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_camera_1a07ca19fe163a3d6b70508092a0ddb085"/>float <emphasis role="strong">y</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Represents a camera. </para>
+
+
+
+<para>This class defines a camera and is used by the renderer. </para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_forms_pixel_engine_1_1_f_p_e_1_1_rendering_1_1_camera_1a1e43bc4b299c996d671a988fdc7d3cfb"/><section>
+    <title>Camera()</title>
+<indexterm><primary>Camera</primary><secondary>FormsPixelEngine.FPE.Rendering.Camera</secondary></indexterm>
+<indexterm><primary>FormsPixelEngine.FPE.Rendering.Camera</primary><secondary>Camera</secondary></indexterm>
+<para><computeroutput>FormsPixelEngine.FPE.Rendering.Camera.Camera (float _x, float _y)</computeroutput></para><para>
+
+<para>Constructor of Camera. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>_x</entry><entry>
+<para>Camera x position. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>_x</entry><entry>
+<para>Camera y position. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>See also</title>
+
+<para>Renderer.PushCamera </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Rendering/Camera.cs</section>
+</section>
